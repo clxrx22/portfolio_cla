@@ -1,0 +1,813 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600;700&family=Poppins:wght@400;500&display=swap");
+@font-face {
+  font-family: "Mango Grotesque ExtLt";
+  src: url("/asset/font/Humane-ExtraLight.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight.woff") format("woff"), url("/asset/font/Humane-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Bold.woff2") format("woff2"), url("/asset/font/Humane-Bold.woff") format("woff"), url("/asset/font/Humane-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Regular.woff2") format("woff2"), url("/asset/font/Humane-Regular.woff") format("woff"), url("/asset/font/Humane-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Regular_1.woff2") format("woff2"), url("/asset/font/Humane-Regular_1.woff") format("woff"), url("/asset/font/Humane-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque SemBd";
+  src: url("/asset/font/Humane-SemiBold.woff2") format("woff2"), url("/asset/font/Humane-SemiBold.woff") format("woff"), url("/asset/font/Humane-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("/asset/font/Humane-Medium.woff2") format("woff2"), url("/asset/font/Humane-Medium.woff") format("woff"), url("/asset/font/Humane-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque ExtLt";
+  src: url("/asset/font/Humane-ExtraLight_1.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight_1.woff") format("woff"), url("/asset/font/Humane-ExtraLight_1.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Light.woff2") format("woff2"), url("/asset/font/Humane-Light.woff") format("woff"), url("/asset/font/Humane-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Thin.woff2") format("woff2"), url("/asset/font/Humane-Thin.woff") format("woff"), url("/asset/font/Humane-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Thin_1.woff2") format("woff2"), url("/asset/font/Humane-Thin_1.woff") format("woff"), url("/asset/font/Humane-Thin_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Bold_1.woff2") format("woff2"), url("/asset/font/Humane-Bold_1.woff") format("woff"), url("/asset/font/Humane-Bold_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque SemBd";
+  src: url("/asset/font/Humane-SemiBold_1.woff2") format("woff2"), url("/asset/font/Humane-SemiBold_1.woff") format("woff"), url("/asset/font/Humane-SemiBold_1.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Light_1.woff2") format("woff2"), url("/asset/font/Humane-Light_1.woff") format("woff"), url("/asset/font/Humane-Light_1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("/asset/font/Humane-Medium_1.woff2") format("woff2"), url("/asset/font/Humane-Medium_1.woff") format("woff"), url("/asset/font/Humane-Medium_1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Light_2.woff2") format("woff2"), url("/asset/font/Humane-Light_2.woff") format("woff"), url("/asset/font/Humane-Light_2.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Thin_2.woff2") format("woff2"), url("/asset/font/Humane-Thin_2.woff") format("woff"), url("/asset/font/Humane-Thin_2.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Bold_2.woff2") format("woff2"), url("/asset/font/Humane-Bold_2.woff") format("woff"), url("/asset/font/Humane-Bold_2.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque SemBd";
+  src: url("/asset/font/Humane-SemiBold_2.woff2") format("woff2"), url("/asset/font/Humane-SemiBold_2.woff") format("woff"), url("/asset/font/Humane-SemiBold_2.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("/asset/font/Humane-Medium_2.woff2") format("woff2"), url("/asset/font/Humane-Medium_2.woff") format("woff"), url("/asset/font/Humane-Medium_2.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque ExtLt";
+  src: url("/asset/font/Humane-ExtraLight_2.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight_2.woff") format("woff"), url("/asset/font/Humane-ExtraLight_2.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mango Grotesque";
+  src: url("/asset/font/Humane-Regular_2.woff2") format("woff2"), url("/asset/font/Humane-Regular_2.woff") format("woff"), url("/asset/font/Humane-Regular_2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0F0F0F;
+  overflow-x: hidden;
+}
+body.scroll-lock {
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+}
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accueil .welcome {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.accueil .welcome_inner {
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+  padding: 0 50px 100px;
+  margin: 0 40px;
+}
+@media screen and (min-width: 426px) {
+  .accueil .welcome_inner {
+    padding: 0 80px 100px;
+  }
+}
+.accueil .welcome h1 {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin: 0;
+  font-family: "Mango Grotesque Med";
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 10px;
+}
+@media screen and (min-width: 426px) {
+  .accueil .welcome h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .accueil .welcome h1 {
+    font-size: 60px;
+  }
+}
+.accueil .welcome img {
+  margin-top: 100px;
+  max-width: 100%;
+}
+.accueil .welcome h2 {
+  font-family: "Mango Grotesque";
+  font-size: 50px;
+  color: #E1B3D4;
+  line-height: 0.8;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 426px) {
+  .accueil .welcome h2 {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .accueil .welcome h2 {
+    font-size: 108px;
+  }
+}
+.accueil .welcome .clara {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+.accueil .welcome .denudt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.accueil .welcome .icone-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.about {
+  position: relative;
+  z-index: 11;
+  overflow-x: hidden;
+}
+.about-section:not(.about-section.section-text) {
+  height: 100vh;
+  flex: 1 0 50%;
+}
+.about .section-text {
+  display: flex;
+  flex: 1 0 2650px;
+}
+@media screen and (min-width: 426px) {
+  .about .section-text {
+    flex: 1 0 3580px;
+  }
+}
+.about .contenu-about {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow-x: auto;
+}
+.about .contenu-about .burger-about {
+  position: absolute;
+  top: 0;
+  padding: 30px;
+  z-index: 15;
+}
+.about .contenu-about .burger-about label {
+  cursor: pointer;
+}
+.about .contenu-about .about-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 50%;
+}
+.about .contenu-about .about-img img {
+  max-width: 100%;
+  height: 40%;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .about-img img {
+    height: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about .contenu-about .about-img img {
+    height: 80%;
+  }
+}
+.about .contenu-about .photo-moi {
+  display: flex;
+  align-items: center;
+  flex: 1 0 50%;
+}
+.about .contenu-about .photo-moi > img {
+  max-width: 100%;
+  height: 20%;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .photo-moi > img {
+    height: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about .contenu-about .photo-moi > img {
+    height: 60%;
+  }
+}
+.about .contenu-about .photo-moi .icone-scroll-right {
+  position: relative;
+  margin: 50px;
+  -webkit-animation: 2s scrollRight ease infinite alternate;
+          animation: 2s scrollRight ease infinite alternate;
+}
+.about .contenu-about .photo-moi .icone-scroll-right img {
+  transform: rotate(-90deg);
+}
+@-webkit-keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.about .contenu-about .texte {
+  color: #FFFFFF;
+  text-align: right;
+  line-height: 1.2;
+  display: flex;
+  margin-left: 180px;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .texte {
+    margin-left: 260px;
+  }
+}
+.about .contenu-about .texte h3 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 60px;
+  border-bottom: 3px solid #E1B3D4;
+  padding-bottom: 0;
+  text-align: left;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .texte h3 {
+    font-size: 36px;
+    border-bottom: 5px solid #E1B3D4;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .texte h3 {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about .contenu-about .texte h3 {
+    padding-bottom: 35px;
+  }
+}
+.about .contenu-about .texte h3 + p {
+  margin-top: 10px;
+}
+.about .contenu-about .texte p {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .texte p {
+    font-size: 28px;
+  }
+}
+.about .contenu-about .texte.double {
+  display: flex;
+}
+.about .contenu-about .texte.double.icone-code div + div {
+  display: flex;
+  flex-direction: column;
+}
+.about .contenu-about .texte.double.icone-code div + div .icone-material {
+  position: relative;
+}
+.about .contenu-about .texte.double.icone-code div + div .icone-material .icone-html {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+.about .contenu-about .texte.double.icone-code div + div .icone-material .icone-css {
+  position: absolute;
+  left: 170px;
+  top: 160px;
+}
+.about .contenu-about .texte.double.icone-code div + div .icone-material .icone-python {
+  position: absolute;
+  width: 20%;
+  left: 300px;
+  top: 90px;
+}
+.about .contenu-about .texte.double div + div {
+  text-align: left;
+  margin-left: 40px;
+  padding-top: 90px;
+}
+.about .contenu-about .contact {
+  margin: 0px 200px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact {
+    margin: 0 260px 0 200px;
+  }
+}
+.about .contenu-about .contact h3 {
+  color: #FFFFFF;
+  border-bottom: 5px solid #E1B3D4;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact h3 {
+    padding-bottom: 35px;
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .contact h3 {
+    font-size: 48px;
+  }
+}
+.about .contenu-about .contact .contact-me .icone-contact {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.about .contenu-about .contact .contact-me .icone-contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .contenu-about .contact .contact-me .icone-contact a img {
+  height: 30%;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact .contact-me .icone-contact a img {
+    height: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .contact .contact-me .icone-contact a img {
+    height: 70%;
+  }
+}
+.about .contenu-about .contact .cv {
+  margin-top: 30px;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact .cv {
+    margin-top: 60px;
+  }
+}
+.about .contenu-about .contact .cv .elt-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+.about .contenu-about .contact .cv .elt-button button {
+  position: relative;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  max-width: 100%;
+  padding: 10px 50px;
+  border-radius: 100px;
+  border-style: none;
+  box-shadow: -10px 10px 15px #E1B3D4;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact .cv .elt-button button {
+    padding: 15px 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .contact .cv .elt-button button {
+    padding: 20px 120px;
+  }
+}
+.about .contenu-about .contact .cv .elt-button button a {
+  font-family: "Mango Grotesque";
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  color: #E1B3D4;
+  text-decoration: none;
+  letter-spacing: 10px;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact .cv .elt-button button a {
+    font-size: 82px;
+  }
+}
+.about .contenu-about .contact .icone-scroll-contact {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-home {
+  width: 100%;
+}
+.nav-home nav {
+  width: 100%;
+  height: 100%;
+}
+.nav-home nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 426px) {
+  .nav-home nav ul {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-home nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.nav-home nav ul li {
+  text-align: left;
+  width: 100px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+@media screen and (min-width: 768px) {
+  .nav-home nav ul li {
+    width: 120px;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-home nav ul li {
+    width: 180px;
+    margin-top: 0;
+  }
+}
+.nav-home nav ul li a {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.nav-home nav ul li a span {
+  transition: 0.5s all ease;
+  display: block;
+  transform-origin: bottom left;
+  border-bottom: 5px solid #E1B3D4;
+  color: #FFFFFF;
+  font-family: "Mango Grotesque";
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.165em;
+  padding-bottom: 26px;
+}
+@media screen and (min-width: 426px) {
+  .nav-home nav ul li a span {
+    font-size: 82px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-home nav ul li a span {
+    font-size: 90px;
+    transform: rotate(-90deg) translateY(100%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-home nav ul li a span {
+    font-size: 128px;
+  }
+}
+.nav-home nav ul li a span:hover {
+  transform: rotate(-90deg) translateY(100%) translateX(50px);
+}
+.nav-home nav ul li:last-child span {
+  border: none;
+}
+.nav-home nav ul li:nth-child(1) span:hover {
+  color: pink;
+}
+.nav-home nav ul li:nth-child(2) span:hover {
+  color: rgb(255, 153, 204);
+}
+.nav-home nav ul li:nth-child(3) span:hover {
+  color: rgb(255, 102, 204);
+}
+.nav-home nav ul li:nth-child(4) span:hover {
+  color: rgb(255, 51, 204);
+}
+.nav-home nav ul li:nth-child(5) span:hover {
+  color: rgb(255, 0, 204);
+}
+
+.menu {
+  overflow: hidden;
+}
+.menu input[name=menu-toggler] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  transform: translateX(-2px);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  pointer-events: none;
+}
+.menu input[name=menu-toggler]:checked + .menu-wrap {
+  z-index: 20;
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0);
+}
+.menu .menu-wrap {
+  transition: 0.3s all ease-in-out;
+  background-color: #FFFFFF;
+  opacity: 0;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translateX(-100%);
+}
+.menu .menu-wrap nav ul li {
+  text-align: left;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 46px;
+}
+@media (any-hover: hover) {
+  .menu .menu-wrap nav ul li:hover a span {
+    transform: translateX(50px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu .menu-wrap nav ul li {
+    width: 500px;
+  }
+}
+.menu .menu-wrap nav ul li a {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.menu .menu-wrap nav ul li a span {
+  transition: 0.5s all ease;
+  display: block;
+  transform-origin: bottom left;
+  border-bottom: 5px solid #E1B3D4;
+  color: #0F0F0F;
+  font-family: "Mango Grotesque";
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 0.165em;
+  padding-bottom: 18px;
+}
+@media screen and (min-width: 426px) {
+  .menu .menu-wrap nav ul li a span {
+    font-size: 64px;
+    padding-bottom: 26px;
+  }
+}
+.menu .menu-wrap nav ul li:last-child span {
+  border: none;
+}
+.menu .menu-wrap nav ul li:nth-child(1):hover span {
+  color: rgb(255, 230, 204);
+}
+.menu .menu-wrap nav ul li:nth-child(2) span:hover {
+  color: rgb(255, 204, 204);
+}
+.menu .menu-wrap nav ul li:nth-child(3) span:hover {
+  color: rgb(255, 153, 204);
+}
+.menu .menu-wrap nav ul li:nth-child(4) span:hover {
+  color: rgb(255, 102, 204);
+}
+.menu .menu-wrap nav ul li:nth-child(5) span:hover {
+  color: rgb(255, 0, 204);
+}
+.menu .menu-wrap div a {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+@media screen and (min-width: 426px) {
+  .menu .menu-wrap div a {
+    padding: 30px;
+  }
+}
+.menu .menu-wrap div .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+}
+@media screen and (min-width: 426px) {
+  .menu .menu-wrap div .close {
+    padding: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

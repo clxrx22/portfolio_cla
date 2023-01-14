@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Mango Grotesque ExtLt';
+    src: url('Humane-ExtraLight.woff2') format('woff2'),
+        url('Humane-ExtraLight.woff') format('woff'),
+        url('Humane-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Bold.woff2') format('woff2'),
+        url('Humane-Bold.woff') format('woff'),
+        url('Humane-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Regular.woff2') format('woff2'),
+        url('Humane-Regular.woff') format('woff'),
+        url('Humane-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Regular_1.woff2') format('woff2'),
+        url('Humane-Regular_1.woff') format('woff'),
+        url('Humane-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque SemBd';
+    src: url('Humane-SemiBold.woff2') format('woff2'),
+        url('Humane-SemiBold.woff') format('woff'),
+        url('Humane-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque Med';
+    src: url('Humane-Medium.woff2') format('woff2'),
+        url('Humane-Medium.woff') format('woff'),
+        url('Humane-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque ExtLt';
+    src: url('Humane-ExtraLight_1.woff2') format('woff2'),
+        url('Humane-ExtraLight_1.woff') format('woff'),
+        url('Humane-ExtraLight_1.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Light.woff2') format('woff2'),
+        url('Humane-Light.woff') format('woff'),
+        url('Humane-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Thin.woff2') format('woff2'),
+        url('Humane-Thin.woff') format('woff'),
+        url('Humane-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Thin_1.woff2') format('woff2'),
+        url('Humane-Thin_1.woff') format('woff'),
+        url('Humane-Thin_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Bold_1.woff2') format('woff2'),
+        url('Humane-Bold_1.woff') format('woff'),
+        url('Humane-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque SemBd';
+    src: url('Humane-SemiBold_1.woff2') format('woff2'),
+        url('Humane-SemiBold_1.woff') format('woff'),
+        url('Humane-SemiBold_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Light_1.woff2') format('woff2'),
+        url('Humane-Light_1.woff') format('woff'),
+        url('Humane-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque Med';
+    src: url('Humane-Medium_1.woff2') format('woff2'),
+        url('Humane-Medium_1.woff') format('woff'),
+        url('Humane-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Light_2.woff2') format('woff2'),
+        url('Humane-Light_2.woff') format('woff'),
+        url('Humane-Light_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Thin_2.woff2') format('woff2'),
+        url('Humane-Thin_2.woff') format('woff'),
+        url('Humane-Thin_2.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Bold_2.woff2') format('woff2'),
+        url('Humane-Bold_2.woff') format('woff'),
+        url('Humane-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque SemBd';
+    src: url('Humane-SemiBold_2.woff2') format('woff2'),
+        url('Humane-SemiBold_2.woff') format('woff'),
+        url('Humane-SemiBold_2.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque Med';
+    src: url('Humane-Medium_2.woff2') format('woff2'),
+        url('Humane-Medium_2.woff') format('woff'),
+        url('Humane-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque ExtLt';
+    src: url('Humane-ExtraLight_2.woff2') format('woff2'),
+        url('Humane-ExtraLight_2.woff') format('woff'),
+        url('Humane-ExtraLight_2.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mango Grotesque';
+    src: url('Humane-Regular_2.woff2') format('woff2'),
+        url('Humane-Regular_2.woff') format('woff'),
+        url('Humane-Regular_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
