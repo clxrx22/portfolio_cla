@@ -66,7 +66,7 @@ body {
             font-family: 'Mango Grotesque Med';
             text-transform: uppercase;
             font-size: 32px;
-            color: #FFFFFF;
+            color: #F5F5F5;
             letter-spacing: 10px;
 
             @media screen and (min-width: $bp-mobile) {
@@ -239,7 +239,7 @@ body {
 
         //TEXTES
         .texte {
-            color: #FFFFFF;
+            color: #F5F5F5;
             text-align: right;
             line-height: 1.2;
             display: flex;
@@ -348,7 +348,7 @@ body {
             }
 
             h3 {
-                color: #FFFFFF;
+                color: #F5F5F5;
                 border-bottom: 5px solid #E1B3D4;
                 padding-bottom: 20px;
                 text-align: center;
@@ -408,7 +408,7 @@ body {
 
                     button {
                         position: relative;
-                        background-color: #FFFFFF;
+                        background-color: #F5F5F5;
                         cursor: pointer;
                         max-width: 100%;
                         padding: 10px 50px;
@@ -513,7 +513,7 @@ body {
                         transform-origin: bottom left;
 
                         border-bottom: 5px solid #E1B3D4;
-                        color: #FFFFFF;
+                        color: #F5F5F5;
                         font-family: 'Mango Grotesque';
                         font-weight: bold;
                         font-size: 50px;
@@ -614,7 +614,7 @@ body {
     .menu-wrap {
         transition: 0.3s all ease-in-out;
 
-        background-color: #FFFFFF;
+        background-color: #F5F5F5;
         opacity: 0;
 
         z-index: 10;

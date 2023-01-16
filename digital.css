@@ -248,7 +248,7 @@ body {
 }
 .menu .menu-wrap {
   transition: 0.3s all ease-in-out;
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   opacity: 0;
   z-index: 10;
   position: fixed;
