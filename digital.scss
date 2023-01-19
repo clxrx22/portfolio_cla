@@ -206,24 +206,19 @@ body {
 }
 
 .fruity{
-    .elt-fruity{
-        .contenu-fruity{
-            .parent_slide1{
-                position: relative;
+    .parent{
+        position: relative;
+        width: 500px;
+        height: 500px;
 
-                .child_slide1{
-                    position: absolute;
-                    z-index: -1;
-                    
-                }
+        .img1_slide1{
+            position: absolute;
+            z-index: -1;
+        }
 
-                .child_slide2{
-                    z-index: 100;
-                    top: 0;
-                    // margin-top: 300px;
-                }
-            }
+        .img2_slide1{
+            position: absolute;
+            z-index: 1;
         }
     }
 }
-

@@ -339,14 +339,16 @@ body {
   }
 }
 
-.fruity .elt-fruity .contenu-fruity .parent_slide1 {
+.fruity .parent {
   position: relative;
+  width: 500px;
+  height: 500px;
 }
-.fruity .elt-fruity .contenu-fruity .parent_slide1 .child_slide1 {
+.fruity .parent .img1_slide1 {
   position: absolute;
   z-index: -1;
 }
-.fruity .elt-fruity .contenu-fruity .parent_slide1 .child_slide2 {
-  z-index: 100;
-  top: 0;
+.fruity .parent .img2_slide1 {
+  position: absolute;
+  z-index: 1;
 }/*# sourceMappingURL=digital.css.map */
