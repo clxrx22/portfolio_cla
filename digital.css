@@ -205,7 +205,7 @@ html {
 }
 
 body {
-  background-color: red;
+  background-color: #0F0F0F;
 }
 
 .section {
@@ -339,6 +339,14 @@ body {
   }
 }
 
-.fruity .elt-fruity {
-  background-color: green;
+.fruity .elt-fruity .contenu-fruity .parent_slide1 {
+  position: relative;
+}
+.fruity .elt-fruity .contenu-fruity .parent_slide1 .child_slide1 {
+  position: absolute;
+  z-index: -1;
+}
+.fruity .elt-fruity .contenu-fruity .parent_slide1 .child_slide2 {
+  z-index: 100;
+  top: 0;
 }/*# sourceMappingURL=digital.css.map */
