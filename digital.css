@@ -339,16 +339,24 @@ body {
   }
 }
 
-.fruity .parent {
-  position: relative;
-  width: 500px;
-  height: 500px;
+.fruity .carousel-item_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.fruity .parent .img1_slide1 {
+.fruity .carousel-item_container .img1_slide1 {
   position: absolute;
-  z-index: -1;
+  right: 0;
+  top: 20px;
 }
-.fruity .parent .img2_slide1 {
+.fruity .carousel-item_container .img1_slide1 .img {
+  height: 400px;
+}
+.fruity .carousel-item_container .img2_slide1 {
   position: absolute;
-  z-index: 1;
+  bottom: -50px;
+}
+.fruity .carousel-item_container .img2_slide1 .img {
+  height: 400px;
 }/*# sourceMappingURL=digital.css.map */

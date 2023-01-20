@@ -206,19 +206,30 @@ body {
 }
 
 .fruity{
-    .parent{
-        position: relative;
-        width: 500px;
-        height: 500px;
+    .carousel-item_container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
 
-        .img1_slide1{
+        .img1_slide1 {
             position: absolute;
-            z-index: -1;
+            right: 0;
+            top:20px;
+            
+            .img{
+                height: 400px;
+            }
         }
 
         .img2_slide1{
             position: absolute;
-            z-index: 1;
+            bottom: -50px;
+
+            .img{
+                height: 400px;
+            }
+        
         }
     }
 }
