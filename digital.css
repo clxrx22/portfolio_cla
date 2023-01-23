@@ -358,8 +358,9 @@ body {
   position: absolute;
   right: 0;
   top: 20px;
+  height: 100px;
 }
-.fruity .carousel-item_container .img1_slide1 .img {
+.fruity .carousel-item_container .img1_slide1 .welcome_fruity {
   height: 400px;
 }
 .fruity .carousel-item_container .img2_slide1 {

@@ -231,8 +231,9 @@ body {
             position: absolute;
             right: 0;
             top:20px;
+            height: 100px;
             
-            .img{
+            .welcome_fruity{
                 height: 400px;
             }
         }
@@ -257,7 +258,6 @@ body {
         }
         .icones_contact{
             color: #0F0F0F;
-            // width: 20%;
             display: flex;
             justify-content: space-around;
             align-items: center;
