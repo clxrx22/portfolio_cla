@@ -334,13 +334,14 @@ body {
   cursor: pointer;
 }
 .haut-de-page .titre-icon .elt .digital_titre {
-  width: 50%;
-  height: 30%;
+  width: 45%;
+  margin-top: -100px;
+  margin-bottom: -200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.haut-de-page .titre-icon .elt .icon_scroll {
+.haut-de-page .titre-icon .elt .icon_scroll_digital {
   width: 50px;
   display: block;
   margin-left: auto;
