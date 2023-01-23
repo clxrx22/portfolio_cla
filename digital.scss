@@ -248,3 +248,19 @@ body {
         }
     }
 }
+
+.pied_de_page{
+    background-color: #F5F5F5;
+    .centre_footer{
+        .remonte{
+            background-color: red;
+        }
+        .icones_contact{
+            color: #0F0F0F;
+            // width: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}

@@ -368,4 +368,17 @@ body {
 }
 .fruity .carousel-item_container .img2_slide1 .img {
   height: 400px;
+}
+
+.pied_de_page {
+  background-color: #F5F5F5;
+}
+.pied_de_page .centre_footer .remonte {
+  background-color: red;
+}
+.pied_de_page .centre_footer .icones_contact {
+  color: #0F0F0F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=digital.css.map */
