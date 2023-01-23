@@ -520,8 +520,12 @@ body.scroll-lock {
   }
 }
 .about .contenu-about .contact .contact-me .icones-contact {
-  width: 15%;
-  margin-top: 35px;
+  width: 10%;
+  height: 70px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .about .contenu-about .contact .contact-me .icones-contact a {
   display: flex;
@@ -529,7 +533,11 @@ body.scroll-lock {
   align-items: center;
 }
 .about .contenu-about .contact .contact-me .icones-contact a img {
-  height: 30%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
 }
 @media screen and (min-width: 426px) {
   .about .contenu-about .contact .contact-me .icones-contact a img {

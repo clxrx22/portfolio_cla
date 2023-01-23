@@ -375,11 +375,27 @@ body {
   background-color: #F5F5F5;
 }
 .pied_de_page .centre_footer .remonte {
-  background-color: red;
-}
-.pied_de_page .centre_footer .icones_contact {
-  padding: 50px;
+  transform: rotate(-180deg);
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.pied_de_page .centre_footer .icones_contact {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.pied_de_page .centre_footer .icones_contact a {
+  margin: 10px;
+}
+.pied_de_page .centre_footer p {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 30px;
+  font-size: 16px;
+  line-height: 30px;
   text-align: center;
 }/*# sourceMappingURL=digital.css.map */
