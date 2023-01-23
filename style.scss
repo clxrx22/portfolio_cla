@@ -366,11 +366,13 @@ body {
             }
 
             .contact-me {
-                .icone-contact {
+                .icones-contact {
+                    width: 15%;
                     margin-top: 35px;
-                    display: flex;
-                    justify-content: space-between;
-                    // align-items: center;
+
+                    // display: flex;
+                    // justify-content: center;
+                    // text-align: center;
 
                     a {
                         display: flex;

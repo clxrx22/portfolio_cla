@@ -378,8 +378,8 @@ body {
   background-color: red;
 }
 .pied_de_page .centre_footer .icones_contact {
-  color: #0F0F0F;
+  padding: 50px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
 }/*# sourceMappingURL=digital.css.map */

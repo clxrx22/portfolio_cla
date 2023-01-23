@@ -519,26 +519,25 @@ body.scroll-lock {
     font-size: 48px;
   }
 }
-.about .contenu-about .contact .contact-me .icone-contact {
+.about .contenu-about .contact .contact-me .icones-contact {
+  width: 15%;
   margin-top: 35px;
-  display: flex;
-  justify-content: space-between;
 }
-.about .contenu-about .contact .contact-me .icone-contact a {
+.about .contenu-about .contact .contact-me .icones-contact a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about .contenu-about .contact .contact-me .icone-contact a img {
+.about .contenu-about .contact .contact-me .icones-contact a img {
   height: 30%;
 }
 @media screen and (min-width: 426px) {
-  .about .contenu-about .contact .contact-me .icone-contact a img {
+  .about .contenu-about .contact .contact-me .icones-contact a img {
     height: 50%;
   }
 }
 @media screen and (min-width: 768px) {
-  .about .contenu-about .contact .contact-me .icone-contact a img {
+  .about .contenu-about .contact .contact-me .icones-contact a img {
     height: 70%;
   }
 }
