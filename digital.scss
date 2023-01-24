@@ -258,14 +258,14 @@ body {
         .remonte{
             // background-color: red;
             transform: rotate(-180deg);
-            // margin-top: 30px;
+            padding-bottom: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .icones_contact{
-            margin-top: 150px;
+            margin-top: 50px;
             margin-bottom: 30px;
             
             display: flex;
@@ -285,6 +285,7 @@ body {
             font-size: 16px;
             line-height: 30px;
             text-align: center;
+            padding-bottom: 50px;
         }
     }
 }

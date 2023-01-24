@@ -376,12 +376,13 @@ body {
 }
 .pied_de_page .centre_footer .remonte {
   transform: rotate(-180deg);
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pied_de_page .centre_footer .icones_contact {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
@@ -398,4 +399,5 @@ body {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=digital.css.map */
