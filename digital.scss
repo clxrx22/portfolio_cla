@@ -201,8 +201,8 @@ body {
         .elt{
             .digital_titre{
                 width: 45%;
-                margin-top: -100px;
-                margin-bottom: -200px;
+                margin-top: -200px;
+                margin-bottom: -300px;
 
                 display: block;
                 margin-left: auto;
@@ -228,24 +228,45 @@ body {
         height: 100%;
 
         .img1_slide1 {
-            position: absolute;
-            right: 0;
-            top:20px;
-            height: 100px;
+            position: relative;
+            left: 570px;
+            bottom: 140px;
             
             .welcome_fruity{
-                height: 400px;
+                height: 300px;
+
+                line-height: 60px;
+                border-left: 3px solid #F5F5F5;
+                padding-left: 30px;
+                text-align: left;
             }
         }
 
         .img2_slide1{
-            position: absolute;
-            bottom: -50px;
+            position: relative;
+            top: 170px;
+            right: 100px;
 
-            .img{
-                height: 400px;
+            .mockup-diapo-1{
+                height: 250px;
+
+                line-height: 60px;
+                border-right: 3px solid #F5F5F5;
+                padding-right: 30px;
+                text-align: left;
             }
         
+        }
+
+        .titre{
+            position: relative;
+            top: 60px;
+            right: 40px;
+
+            color: #F5F5F5;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-weight: 700px;
+            font-size: 40px;
         }
     }
 }
@@ -259,33 +280,62 @@ body {
             // background-color: red;
             transform: rotate(-180deg);
             padding-bottom: 30px;
+
             display: flex;
             justify-content: center;
             align-items: center;
+                
+            .icon_scroll_haut{
+                width: 50%;
+
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
         }
 
         .icones_contact{
-            margin-top: 50px;
+            margin-top: 30px;
             margin-bottom: 30px;
             
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
 
-            a {
-                margin: 10px;
+            img{
+                width: 70%;
+
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
 
         p{
             font-family: 'IBM Plex Sans Thai', sans-serif;
             font-weight: 30px;
-            font-size: 16px;
+            font-size: 11px;
             line-height: 30px;
             text-align: center;
-            padding-bottom: 50px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .accueil_footer{
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+
+        .home{
+            width: 30px;
         }
     }
 }

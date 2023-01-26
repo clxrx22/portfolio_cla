@@ -357,7 +357,7 @@ body.scroll-lock {
 }
 @media screen and (min-width: 1024px) {
   .about .contenu-about .about-img img {
-    height: 80%;
+    height: 70%;
   }
 }
 .about .contenu-about .photo-moi {
