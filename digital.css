@@ -495,9 +495,10 @@ p {
 .fruity .carousel-item_container2 .border_slide2 {
   display: block;
   background-color: green;
+  opacity: 70%;
   border-left: 3px solid #F5F5F5;
   border-bottom: 3px solid #F5F5F5;
-  padding-left: 10px;
+  padding: 10px;
   text-align: left;
   margin-top: 300px;
   margin-right: 120px;
@@ -571,6 +572,87 @@ p {
   .fruity .carousel-item_container2 .img_slide2 {
     margin-left: 500px;
   }
+}
+.fruity .carousel-item_container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.fruity .carousel-item_container3 .colum1 {
+  display: block;
+  margin-top: 50px;
+}
+.fruity .carousel-item_container3 .colum1 .text-left {
+  text-align: right;
+  margin: 20px;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .fruity .carousel-item_container3 .colum1 .text-left {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .fruity .carousel-item_container3 .colum1 .text-left {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fruity .carousel-item_container3 .colum1 .text-left {
+    font-size: 26px;
+  }
+}
+.fruity .carousel-item_container3 .colum1 .img_slide3 {
+  width: 40%;
+  margin-left: 360px;
+  margin-bottom: 50px;
+}
+.fruity .carousel-item_container3 .colum2 .text-milieu {
+  border-left: 3px solid #F5F5F5;
+  border-top: 3px solid #F5F5F5;
+  margin-right: 80px;
+  padding: 15px;
+  text-align: left;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .fruity .carousel-item_container3 .colum2 .text-milieu {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .fruity .carousel-item_container3 .colum2 .text-milieu {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fruity .carousel-item_container3 .colum2 .text-milieu {
+    font-size: 26px;
+  }
+}
+.fruity .carousel-item_container3 .colum3 {
+  display: block;
+}
+.fruity .carousel-item_container3 .colum3 .img_3d {
+  margin-right: 450px;
+  width: 50%;
+}
+.fruity .carousel-item_container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.fruity .carousel-item_container4 .elt_slide4 .img_slide4 {
+  width: 30%;
+}
+.fruity .carousel-item_container4 .elt_slide4 .text_slide4 {
+  font-size: 22px;
 }
 
 .pied_de_page {
