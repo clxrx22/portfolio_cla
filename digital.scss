@@ -25,7 +25,7 @@ body {
     height: 100vh;
 }
 
-h1{
+h1 {
     color: #F5F5F5;
     font-family: 'IBM Plex Sans Thai', sans-serif;
     font-weight: 700px;
@@ -35,15 +35,38 @@ h1{
     @media screen and (min-width: $bp-mobile) {
         font-size: 20px;
     }
+
     @media screen and (min-width: $bp-tablet) {
         font-size: 32px;
     }
+
     @media screen and (min-width: $bp-desk-small) {
         font-size: 40px;
     }
 }
 
-p{
+h2 {
+    color: #F5F5F5;
+    font-family: 'Mango Grotesque Med';
+    font-weight: 700px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    margin: 10px;
+
+    @media screen and (min-width: $bp-mobile) {
+        font-size: 30px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 50px;
+    }
+
+    @media screen and (min-width: $bp-desk-small) {
+        font-size: 70px;
+    }
+}
+
+p {
     display: block;
     color: #F5F5F5;
     font-family: 'IBM Plex Sans Thai', sans-serif;
@@ -55,9 +78,11 @@ p{
     @media screen and (min-width: $bp-tablet) {
         font-size: 14px;
     }
+
     @media screen and (min-width: $bp-desk-small) {
         font-size: 20px;
     }
+
     @media screen and (min-width: 1440px) {
         font-size: 32px;
     }
@@ -168,28 +193,28 @@ p{
                     &:nth-child(2) {
                         span:hover {
                             color: rgb(255, 204, 204);
-                            
+
                         }
                     }
 
                     &:nth-child(3) {
                         span:hover {
                             color: rgb(255, 153, 204);
-                    
+
                         }
                     }
 
                     &:nth-child(4) {
                         span:hover {
                             color: rgb(255, 102, 204);
-                            
+
                         }
                     }
 
                     &:nth-child(5) {
                         span:hover {
                             color: rgb(255, 0, 204);
-                            
+
                         }
                     }
                 }
@@ -223,7 +248,7 @@ p{
     }
 }
 
-.haut-de-page{
+.haut-de-page {
     .burger-digital {
         position: absolute;
         top: 0;
@@ -235,9 +260,9 @@ p{
         }
     }
 
-    .titre-icon{
-        .elt{
-            .digital_titre{
+    .titre-icon {
+        .elt {
+            .digital_titre {
                 width: 35%;
                 margin-top: 200px;
                 margin-bottom: 100px;
@@ -247,307 +272,151 @@ p{
                 margin-right: auto;
             }
 
-            .icon_scroll_digital{
-                width: 50px;
+            .icon_scroll_digital {
+                width: 40px;
 
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                margin-bottom: 100px;
             }
         }
     }
 }
 
-.fruity{
-    .carousel-item_container{
+
+.oeuvre_photoshop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
+
+     
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(-5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
+    
+    .image-photoshop {
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        justify-content: center;
+
+        .carres2-haut {
+            width: 20%;
+            margin-right: 3px;
+        }
+
+        .carres2-bas {
+            width: 20%;
+            margin-right: 3px;
+        }
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
+
+     
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
+    
+
+    .image-logo {
+        display: flex;
         justify-content: center;
         align-items: center;
-        align-content: stretch;
-        
-        width: 100%;
-        height: 100%;
-
-        .img1_slide1 {
-            display: block;
-            width: 38%;
-            margin: 4px;
-            margin-left: 40px;
-
-            .welcome_fruity{
-                border-left: 3px solid #F5F5F5;
-                padding-left: 10px;
-                text-align: left;
-    
-                @media screen and (min-width: $bp-tablet) {
-                    padding-left: 20px;
-                }
-                
-                @media screen and (min-width: $bp-desk-small) {
-                    padding-left: 30px;
-                }
-            }
-
-            @media screen and (min-width: $bp-mobile) {
-                margin-left: 50px;
-            }
-
-            @media screen and (min-width: $bp-tablet) {
-                margin: 10px;
-                margin-left: 100px;
-            }
-            
-            @media screen and (min-width: $bp-desk-small) {
-                margin: 10px;
-                margin-left: 200px;
-            }
-        }
-
-        .img2_slide1{
-            display: flex;
-            flex-direction: row;
-            width: 20%;
-            margin: 4px;
-            margin-right: 50px;
-
-            .mockup-diapo-1{
-                line-height: 60px;
-                border-right: 3px solid #F5F5F5;
-                padding-right: 10px;
-                text-align: left;
-
-                @media screen and (min-width: $bp-tablet) {
-                    padding-right: 20px;
-                }
-                
-                @media screen and (min-width: $bp-desk-small) {
-                    padding-right: 30px;
-                }
-            }
-
-            @media screen and (min-width: $bp-mobile) {
-                margin-right: 50px;
-            }
-
-            @media screen and (min-width: $bp-tablet) {
-                margin: 10px;
-                margin-right: 200px;
-            }
-            
-            @media screen and (min-width: $bp-desk-small) {
-                margin: 10px;
-                margin-right: 300px;
-            }
-        }
-    }
-
-    .carousel-item_container2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        
-        width: 100%;
-        height: 100%;
-
-        .border_slide2{
-            display: block;
-
-            background-color: green;
-            opacity: 70%;
-            border-left: 3px solid #F5F5F5;
-            border-bottom: 3px solid #F5F5F5;
-            padding: 10px;
-            text-align: left;
-
-            margin-top: 300px;
-            margin-right: 120px;
-
-            @media screen and (min-width: $bp-tablet) {   
-                margin-top: 290px;
-                margin-right: 200px;
-            }
-            @media screen and (min-width: $bp-desk-small) {
-                margin-right: 250px;
-            }
-        }
-
-        .img_slide2{
-            display: flex;
-            justify-content: flex-end; 
-            flex-direction: row;
-
-            margin-left: 200px;
-
-            .fleche_fruity{
-                height: 15%;
-                margin-top: 10px;
-                transform: rotate(90deg);
-
-                @media screen and (min-width: $bp-tablet) {   
-                    height: 20%;
-                    margin-top: 40px;
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    height: 30%;
-                    margin-top: 50px;
-                }
-                @media screen and (min-width: 1025px) {
-                    height: 40%;
-                    margin-top: 40px;
-                }
-            }
-
-            .logo_slide2{
-                height: 15%;
-                margin-bottom: 160px;
-
-                @media screen and (min-width: $bp-tablet) {   
-                    height: 30%;
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    height: 40%;
-                    margin-bottom: 150px;
-                }
-                @media screen and (min-width: 1025px) {
-                    margin-bottom: 200px;
-                }
-            }
-
-            @media screen and (min-width: $bp-tablet) {   
-                margin-left: 400px;
-            }
-            @media screen and (min-width: $bp-desk-small) {   
-                margin-left: 500px;
-            }
-        }
-    }
-
-    .carousel-item_container3{
-        display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
 
-        width: 100%;
-        height: 100%;
-
-        .colum1{
-            display: block;
-            margin-top: 50px;
-            
-            .text1{
-                text-align: right;
-                margin: 20px;
-                font-size: 8px;
-
-                @media screen and (min-width: $bp-tablet) {
-                    font-size:12px;
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    font-size: 16px;
-                }
-                @media screen and (min-width: 1440px) {
-                    font-size: 26px;
-                }
-            }
-
-            .img_slide3{
-                width: 10%;
-                margin-left: 100px;
-                margin-bottom: 50px;
-
-                @media screen and (min-width: $bp-tablet) {
-                    width: 20%;
-                    margin-left: 150px;
-
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    width: 30%;
-                    margin-left: 200px;
-
-                }
-                @media screen and (min-width: 1440px) {
-                    width: 40%;
-                    margin-left: 360px;
-
-                }
-            }
+        .carres3-haut {
+            width: 20%;
+            margin-right: 3px;
         }
-        .colum2{     
-            .text-milieu{
-                border-left: 3px solid #F5F5F5;
-                border-top: 3px solid #F5F5F5;
-                margin-right: 20px;
-                padding: 15px;
 
-                text-align: left;
-                font-size: 8px;
-
-                @media screen and (min-width: $bp-tablet) {
-                    font-size:12px;
-                    margin-right: 80px;
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    font-size: 16px;
-                    margin-right: 80px;
-                }
-                @media screen and (min-width: 1440px) {
-                    font-size: 26px;
-                    margin-right: 80px;
-                }
-            }
-        }
-        .colum3{
-            display: block;
-            .img_3d{
-                margin-right: 100px;
-                width: 40%;
-
-                @media screen and (min-width: $bp-tablet) {
-                    width: 40%;
-                    margin-right: 200px;
-                }
-                @media screen and (min-width: $bp-desk-small) {
-                    margin-right: 250px;
-                }
-                @media screen and (min-width: 1440px) {
-                    width: 50%;
-                    margin-right: 450px;
-                }
-            }
+        .carres3-bas {
+            width: 20%;
+            margin-right: 3px;
         }
     }
-
-    // .carousel-item_container4{
-
-    //     display: flex;
-    //         justify-content: center;
-    //         align-items: center;
-    //         flex-direction: row;
-
-    //     width: 100%;
-    //     height: 100%;
-
-    //     .elt_slide4{
-    //         .img_slide4{
-    //             width: 30%;
-    //         }
-    //         .text_slide4{
-    //             font-size: 22px;
-    //         }
-    //     }
-    // }
 }
 
-.pied_de_page{
+.oeuvre_numerique {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
+
+    
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(-5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
+    
+
+    .image-dessin-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .carres-haut {
+            width: 20%;
+            margin-right: 3px;
+        }
+
+        .carres-bas {
+            width: 20%;
+            margin-right: 3px;
+        }
+    }
+}
+
+.pied_de_page {
     background-color: #F5F5F5;
 
-    .centre_footer{
+    .centre_footer {
 
-        .remonte{
+        .remonte {
             // background-color: red;
             transform: rotate(-180deg);
             padding-bottom: 30px;
@@ -555,28 +424,28 @@ p{
             display: flex;
             justify-content: center;
             align-items: center;
-                
-            .icon_scroll_haut{
+
+            .icon_scroll_haut {
                 width: 50%;
 
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
             }
-            
+
         }
 
-        .icones_contact{
+        .icones_contact {
             margin-top: 30px;
             margin-bottom: 30px;
-            
+
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-evenly;
             align-items: center;
 
-            img{
+            img {
                 width: 40%;
 
                 display: block;
@@ -585,7 +454,7 @@ p{
             }
         }
 
-        .text-piedpage{
+        .text-piedpage {
             font-family: 'IBM Plex Sans Thai', sans-serif;
             color: #0F0F0F;
             font-weight: 30px;
@@ -596,7 +465,7 @@ p{
         }
     }
 
-    .accueil_footer{
+    .accueil_footer {
         position: relative;
         bottom: 20px;
         right: 20px;
@@ -604,9 +473,9 @@ p{
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        
 
-        .home{
+
+        .home {
             width: 25px;
         }
     }

@@ -1,57 +1,635 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <title>Superposer une div sur une autre div avec CSS</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <!-- CAROUSSEL -->
+    <!-- <section id="projet_fruity" class="section fruity" style="height: 100vh;">
+        <div style="height:inherit" id="carouselExampleIndicators" class="carousel slide elt-fruity">
+    
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+    
+          <div style="height:inherit" class="carousel-inner fruity">
+    
+            <div style="height:inherit" class="carousel-item active">
+              <div class="carousel-item_container"
+                style="background-image: url(images/oranges.jpg); background-size: 90%; background-repeat: no-repeat;background-position: center;">
+    
+                <div class="img1_slide1">
+                  <img class="welcome_fruity img-fluid" src="images/diapo1fruity.png" alt="...">
+                </div>
+    
+                <div class="img2_slide1">
+                  <img class="mockup-diapo-1 img-fluid" src="images/mockupfruity_diapo1.png" alt="...">
+                  <h1 class="titre">Fruity Project</h1>
+                </div>
+              </div>
+            </div>
+    
+            <div style="height:inherit" class="carousel-item">
+              <div class="carousel-item_container2"
+                style="background-image: url(images/kiwi.jpg);background-size: 90%; background-repeat: no-repeat;background-position: center;">
+    
+                <div class="border_slide2">
+                  <p>The goal of the Fruity app is to reconnect people <br> with food and healthy eating.</p>
+                  <p> We have seen a clear deterioration in nutrition over <br> the past few years. <br> People are used to
+                    eating in an unhealthy way with <br> fast food and inappropriate products.<br>
+                    They don't know how to use bouncy products <br> like fruits.</p>
+                  <p>Fruity is here to solve this problem by giving <br> people a tool to use fruit properly in all
+                    situations.</p>
+                </div>
+    
+                <div class="img_slide2">
+                  <img class="img-fluid fleche_fruity" src="icones/fleche_fruity.png" alt="fleche">
+                  <img class="img-fluid logo_slide2" src="images/logo_fruity_le_vrai.png" alt="logo">
+                </div>
+              </div>
+            </div>
+    
+            <div style="height:inherit" class="carousel-item">
+              <div class="carousel-item_container3"
+                style="background-image: url(images/fond_rouge.jpg);background-size: 90%; background-repeat: no-repeat;background-position: center;">
+    
+                <div class="colum1">
+                  <p class="text1">In a first step we have <br>
+                    take the most popular <br>
+                    and most used fruits on the<br>
+                    market in order to target<br>
+                    as many<br>
+                    people possible.<br>
+                    We then collected data and<br>
+                    specificities on them.</p>
+                  <img class="img_slide3" src="images/img_slide3.png" alt="">
+                </div>
+    
+                <div class="colum2">
+                  <p class="text-milieu">These data
+                    are present <br>
+                    to guide people and inform
+                    them about <br>
+                    the product they are using. Then, we searched for <br>
+                    recipes on all categories (dish, dessert, drinks,...)<br>
+                    in order to offer a lot of products to people and <br>
+                    to show the diversity that Fruity gives. Finally, <br>
+                    we added features and gave the overall look of the <br>
+                    application by designing it</p>
+                </div>
+    
+                <div class="colum3">
+                  <img class="img_3d" src="images/fraise3d.png" alt="">
+                </div>
+              </div>
+            </div>
+    
+            <div style="height:inherit" class="carousel-item">
+              <div class="carousel-item_container4"
+                style="background-image: url(images/oranges-coupées.jpg);background-size: 90%; background-repeat: no-repeat;background-position: center;">
+    
+                <div class="elt_slide4">
+                  <div class="img_slide4">
+                    <img class="img-fluid img_code" src="images/code_fruity.png" alt="">
+                  </div>
+                  <p class="text_slide4">The coding aspect of the project was a whole
+                      other part, it allowed us to surpass ourselves and to improve
+                      our level
+                      This project gave us a real vision of the professional life.
+                      Thanks to this project we could see all the process of creation and contribution of ideas to arrive a concrete product</p>
+                </div>
+                
+              </div>
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section> -->
 
-    <div class="carousel-inner">
+    <!-- <style>
+        .fruity {
+            .carousel-item_container {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                align-content: stretch;
 
-    <div class="parent">
-        <div class="carousel-item active">
+                width: 100%;
+                height: 100%;
 
-        <div class="child1">
-            <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+                .img1_slide1 {
+                    display: block;
+                    width: 38%;
+                    margin: 4px;
+                    margin-left: 40px;
+
+                    .welcome_fruity {
+                        border-left: 3px solid #F5F5F5;
+                        padding-left: 10px;
+                        text-align: left;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            padding-left: 20px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            padding-left: 30px;
+                        }
+                    }
+
+                    @media screen and (min-width: $bp-mobile) {
+                        margin-left: 50px;
+                    }
+
+                    @media screen and (min-width: $bp-tablet) {
+                        margin: 10px;
+                        margin-left: 100px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        margin: 10px;
+                        margin-left: 200px;
+                    }
+                }
+
+                .img2_slide1 {
+                    display: flex;
+                    flex-direction: row;
+                    width: 20%;
+                    margin: 4px;
+                    margin-right: 50px;
+
+                    .mockup-diapo-1 {
+                        line-height: 60px;
+                        border-right: 3px solid #F5F5F5;
+                        padding-right: 10px;
+                        text-align: left;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            padding-right: 20px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            padding-right: 30px;
+                        }
+                    }
+
+                    @media screen and (min-width: $bp-mobile) {
+                        margin-right: 50px;
+                    }
+
+                    @media screen and (min-width: $bp-tablet) {
+                        margin: 10px;
+                        margin-right: 200px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        margin: 10px;
+                        margin-right: 300px;
+                    }
+                }
+            }
+
+            .carousel-item_container2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                width: 100%;
+                height: 100%;
+
+                .border_slide2 {
+                    display: block;
+
+                    background-color: green;
+                    opacity: 70%;
+                    border-left: 3px solid #F5F5F5;
+                    border-bottom: 3px solid #F5F5F5;
+                    padding: 10px;
+                    text-align: left;
+
+                    margin-top: 300px;
+                    margin-right: 120px;
+
+                    @media screen and (min-width: $bp-tablet) {
+                        margin-top: 290px;
+                        margin-right: 200px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        margin-right: 250px;
+                    }
+                }
+
+                .img_slide2 {
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-direction: row;
+
+                    margin-left: 200px;
+
+                    .fleche_fruity {
+                        height: 15%;
+                        margin-top: 10px;
+                        transform: rotate(90deg);
+
+                        @media screen and (min-width: $bp-tablet) {
+                            height: 20%;
+                            margin-top: 40px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            height: 30%;
+                            margin-top: 50px;
+                        }
+
+                        @media screen and (min-width: 1025px) {
+                            height: 40%;
+                            margin-top: 40px;
+                        }
+                    }
+
+                    .logo_slide2 {
+                        height: 15%;
+                        margin-bottom: 160px;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            height: 30%;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            height: 40%;
+                            margin-bottom: 150px;
+                        }
+
+                        @media screen and (min-width: 1025px) {
+                            margin-bottom: 200px;
+                        }
+                    }
+
+                    @media screen and (min-width: $bp-tablet) {
+                        margin-left: 400px;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        margin-left: 500px;
+                    }
+                }
+            }
+
+            .carousel-item_container3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+
+                width: 100%;
+                height: 100%;
+
+                .colum1 {
+                    display: block;
+                    margin-top: 50px;
+
+                    .text1 {
+                        text-align: right;
+                        margin: 20px;
+                        font-size: 8px;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            font-size: 12px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (min-width: 1440px) {
+                            font-size: 26px;
+                        }
+                    }
+
+                    .img_slide3 {
+                        width: 10%;
+                        margin-left: 100px;
+                        margin-bottom: 50px;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            width: 20%;
+                            margin-left: 150px;
+
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            width: 30%;
+                            margin-left: 200px;
+
+                        }
+
+                        @media screen and (min-width: 1440px) {
+                            width: 40%;
+                            margin-left: 360px;
+
+                        }
+                    }
+                }
+
+                .colum2 {
+                    .text-milieu {
+                        border-left: 3px solid #F5F5F5;
+                        border-top: 3px solid #F5F5F5;
+                        margin-right: 20px;
+                        padding: 15px;
+
+                        text-align: left;
+                        font-size: 8px;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            font-size: 12px;
+                            margin-right: 80px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            font-size: 16px;
+                            margin-right: 80px;
+                        }
+
+                        @media screen and (min-width: 1440px) {
+                            font-size: 26px;
+                            margin-right: 80px;
+                        }
+                    }
+                }
+
+                .colum3 {
+                    display: block;
+
+                    .img_3d {
+                        margin-right: 100px;
+                        width: 40%;
+
+                        @media screen and (min-width: $bp-tablet) {
+                            width: 40%;
+                            margin-right: 200px;
+                        }
+
+                        @media screen and (min-width: $bp-desk-small) {
+                            margin-right: 250px;
+                        }
+
+                        @media screen and (min-width: 1440px) {
+                            width: 50%;
+                            margin-right: 450px;
+                        }
+                    }
+                }
+            }
+
+            // .carousel-item_container4{
+
+            //     display: flex;
+            //         justify-content: center;
+            //         align-items: center;
+            //         flex-direction: row;
+
+            //     width: 100%;
+            //     height: 100%;
+
+            //     .elt_slide4{
+            //         .img_slide4{
+            //             width: 30%;
+            //         }
+            //         .text_slide4{
+            //             font-size: 22px;
+            //         }
+            //     }
+            // }
+        }
+    </style> -->
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #myImg {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            #myImg:hover {
+                opacity: 0.7;
+            }
+
+            /* The Modal (background) */
+            .modal {
+                display: none;
+                /* Hidden by default */
+                position: fixed;
+                /* Stay in place */
+                z-index: 1;
+                /* Sit on top */
+                padding-top: 100px;
+                /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%;
+                /* Full width */
+                height: 100%;
+                /* Full height */
+                overflow: auto;
+                /* Enable scroll if needed */
+                background-color: rgb(0, 0, 0);
+                /* Fallback color */
+                background-color: rgba(0, 0, 0, 0.9);
+                /* Black w/ opacity */
+            }
+
+            /* Modal Content (image) */
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+            }
+
+            /* Caption of Modal Image */
+            #caption {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+                text-align: center;
+                color: #ccc;
+                padding: 10px 0;
+                height: 150px;
+            }
+
+            /* Add Animation */
+            .modal-content,
+            #caption {
+                -webkit-animation-name: zoom;
+                -webkit-animation-duration: 0.6s;
+                animation-name: zoom;
+                animation-duration: 0.6s;
+            }
+
+            @-webkit-keyframes zoom {
+                from {
+                    -webkit-transform: scale(0)
+                }
+
+                to {
+                    -webkit-transform: scale(1)
+                }
+            }
+
+            @keyframes zoom {
+                from {
+                    transform: scale(0)
+                }
+
+                to {
+                    transform: scale(1)
+                }
+            }
+
+            /* The Close Button */
+            .close {
+                position: absolute;
+                top: 15px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            /* 100% Image Width on Smaller Screens */
+            @media only screen and (max-width: 700px) {
+                .modal-content {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <img id="myImg" class="img-fluid face1" src="images/face1.jpeg" alt="face1">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <h1>Vinyle</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, explicabo cupiditate, aliquid
+                culpa sint rerum aspernatur quisquam voluptate ab non alias pariatur modi tenetur ullam cum veniam.
+                Aperiam, dolorem!</p>
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
         </div>
 
-        <div class="child2">
-            <img src="https://avatars.githubusercontent.com/u/115777354?v=4" class="d-block w-100" alt="...">
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+
+
+        <img id="myImg" class="img-fluid face2" src="images/face2.jpeg" alt="face2">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <h1>Vinyle2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, explicabo cupiditate, aliquid
+                culpa sint rerum aspernatur quisquam voluptate ab non alias pariatur modi tenetur ullam cum veniam.
+                Aperiam, dolorem!</p>
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
         </div>
 
-        </div>
-        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
 
-    <div class="carousel-item">
-            <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
 
-    </div>
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
 
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
 
+    </body>
 
-    </div>
+    </html>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-
-</div>
-<!--<div class="parent">-->
-<!--    <div class="child1">-->
-<!--        <img alt style="width: 200px" src="data:image/png;base64,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" alt="">-->
-<!--    </div>-->
-<!--    <div class="child2">-->
-<!--        <img  src="https://avatars.githubusercontent.com/u/115777354?v=4" >-->
-<!--    </div>-->
-<!--</div>-->
 </body>
+
 </html>
