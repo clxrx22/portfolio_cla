@@ -332,7 +332,7 @@ p {
 
             .card__texts {
                 height: 50%;
-                background-color: white;
+                background-color: #F5F5F5;
                 position: relative;
 
                 .card__icon-container {
@@ -419,131 +419,131 @@ p {
     }
 }
 
-// .oeuvre_photoshop {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
+.oeuvre_photoshop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-//     transform: rotate(0deg);
-//     margin: 30px;
-//     height: 30vh;
-
-
-//     @media screen and (min-width: $bp-mobile) {
-//         transform: rotate(-5deg);
-//         height: 60vh;
-//     }
-//     @media screen and (min-width: $bp-tablet) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: $bp-desk-small) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: 1440px) {
-//         height: 95vh;
-//     }
-
-//     .image-photoshop {
-//         display: flex;
-//         justify-content: center;
-
-//         .carres2-haut {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
-
-//         .carres2-bas {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
-//     }
-// }
-
-// .logo {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-
-//     transform: rotate(0deg);
-//     margin: 30px;
-//     height: 30vh;
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
 
 
-//     @media screen and (min-width: $bp-mobile) {
-//         transform: rotate(5deg);
-//         height: 60vh;
-//     }
-//     @media screen and (min-width: $bp-tablet) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: $bp-desk-small) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: 1440px) {
-//         height: 95vh;
-//     }
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(-5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
+
+    .image-photoshop {
+        display: flex;
+        justify-content: center;
+
+        .carres2-haut {
+            width: 20%;
+            margin-right: 3px;
+        }
+
+        .carres2-bas {
+            width: 20%;
+            margin-right: 3px;
+        }
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
 
 
-//     .image-logo {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-direction: row;
-
-//         .carres3-haut {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
-
-//         .carres3-bas {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
-//     }
-// }
-
-// .oeuvre_numerique {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-
-//     transform: rotate(0deg);
-//     margin: 30px;
-//     height: 30vh;
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
 
 
-//     @media screen and (min-width: $bp-mobile) {
-//         transform: rotate(-5deg);
-//         height: 60vh;
-//     }
-//     @media screen and (min-width: $bp-tablet) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: $bp-desk-small) {
-//         height: 70vh;
-//     }
-//     @media screen and (min-width: 1440px) {
-//         height: 95vh;
-//     }
+    .image-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .carres3-haut {
+            width: 20%;
+            margin-right: 3px;
+        }
+
+        .carres3-bas {
+            width: 20%;
+            margin-right: 3px;
+        }
+    }
+}
+
+.oeuvre_numerique {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    transform: rotate(0deg);
+    margin: 30px;
+    height: 30vh;
 
 
-//     .image-dessin-num {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-direction: row;
+    @media screen and (min-width: $bp-mobile) {
+        transform: rotate(-5deg);
+        height: 60vh;
+    }
+    @media screen and (min-width: $bp-tablet) {
+        height: 70vh;
+    }
+    @media screen and (min-width: $bp-desk-small) {
+        height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 95vh;
+    }
 
-//         .carres-haut {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
 
-//         .carres-bas {
-//             width: 20%;
-//             margin-right: 3px;
-//         }
-//     }
-// }
+    .image-dessin-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .carres-haut {
+            width: 20%;
+            margin-right: 3px;
+        }
+
+        .carres-bas {
+            width: 20%;
+            margin-right: 3px;
+        }
+    }
+}
 
 .pied_de_page {
     background-color: #F5F5F5;
