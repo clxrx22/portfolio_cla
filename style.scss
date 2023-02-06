@@ -842,6 +842,7 @@ p {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                z-index: 999;
             }
 
             .icon_scroll_hdp {
@@ -857,12 +858,13 @@ p {
 }
 
 // Page DIGITAL
+
 .lescards {
     padding: 0 16px;
     background-color: #E1B3D4;
     margin-bottom: 80px;
 
-    .titre_section-fruity{
+    .titre_section-fruity {
         text-align: center;
         padding: 20px;
     }
@@ -1045,11 +1047,35 @@ p {
         .carres2-haut {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .carres2-bas {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }
@@ -1091,11 +1117,35 @@ p {
         .carres3-haut {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .carres3-bas {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }
@@ -1137,11 +1187,35 @@ p {
         .carres-haut {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .carres-bas {
             width: 20%;
             margin-right: 3px;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }
@@ -1206,12 +1280,37 @@ p {
             display: flex;
             justify-content: center;
             width: 20%;
+
+            .survol {
+                transition: transform .1s;
+
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
+
         }
 
         .dan_bas {
             display: flex;
             justify-content: center;
             width: 20%;
+        
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }
@@ -1229,12 +1328,36 @@ p {
             display: flex;
             justify-content: center;
             width: 20%;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .bruno_bas {
             display: flex;
             justify-content: center;
             width: 20%;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }
@@ -1253,12 +1376,36 @@ p {
             display: flex;
             justify-content: center;
             width: 20%;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .gum_bas {
             display: flex;
             justify-content: center;
             width: 20%;
+
+            .survol {
+                transition: transform .1s;
+        
+                &:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 }

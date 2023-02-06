@@ -907,6 +907,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  z-index: 999;
 }
 .haut-de-page .titre-icon .elt .icon_scroll_hdp {
   width: 40px;
@@ -1062,9 +1063,25 @@ p {
   width: 20%;
   margin-right: 3px;
 }
+.oeuvre_photoshop .image-photoshop .carres2-haut .survol {
+  transition: transform 0.1s;
+}
+.oeuvre_photoshop .image-photoshop .carres2-haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .oeuvre_photoshop .image-photoshop .carres2-bas {
   width: 20%;
   margin-right: 3px;
+}
+.oeuvre_photoshop .image-photoshop .carres2-bas .survol {
+  transition: transform 0.1s;
+}
+.oeuvre_photoshop .image-photoshop .carres2-bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .logo {
@@ -1106,9 +1123,25 @@ p {
   width: 20%;
   margin-right: 3px;
 }
+.logo .image-logo .carres3-haut .survol {
+  transition: transform 0.1s;
+}
+.logo .image-logo .carres3-haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .logo .image-logo .carres3-bas {
   width: 20%;
   margin-right: 3px;
+}
+.logo .image-logo .carres3-bas .survol {
+  transition: transform 0.1s;
+}
+.logo .image-logo .carres3-bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .oeuvre_numerique {
@@ -1150,9 +1183,25 @@ p {
   width: 20%;
   margin-right: 3px;
 }
+.oeuvre_numerique .image-dessin-num .carres-haut .survol {
+  transition: transform 0.1s;
+}
+.oeuvre_numerique .image-dessin-num .carres-haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .oeuvre_numerique .image-dessin-num .carres-bas {
   width: 20%;
   margin-right: 3px;
+}
+.oeuvre_numerique .image-dessin-num .carres-bas .survol {
+  transition: transform 0.1s;
+}
+.oeuvre_numerique .image-dessin-num .carres-bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .nom__artiste {
@@ -1217,10 +1266,26 @@ p {
   justify-content: center;
   width: 20%;
 }
+.dankitchener .image__dan .dan_haut .survol {
+  transition: transform 0.1s;
+}
+.dankitchener .image__dan .dan_haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .dankitchener .image__dan .dan_bas {
   display: flex;
   justify-content: center;
   width: 20%;
+}
+.dankitchener .image__dan .dan_bas .survol {
+  transition: transform 0.1s;
+}
+.dankitchener .image__dan .dan_bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .brunograffer {
@@ -1236,10 +1301,26 @@ p {
   justify-content: center;
   width: 20%;
 }
+.brunograffer .image__bruno .bruno_haut .survol {
+  transition: transform 0.1s;
+}
+.brunograffer .image__bruno .bruno_haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .brunograffer .image__bruno .bruno_bas {
   display: flex;
   justify-content: center;
   width: 20%;
+}
+.brunograffer .image__bruno .bruno_bas .survol {
+  transition: transform 0.1s;
+}
+.brunograffer .image__bruno .bruno_bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .bublegumsr {
@@ -1256,10 +1337,26 @@ p {
   justify-content: center;
   width: 20%;
 }
+.bublegumsr .image__gum .gum_haut .survol {
+  transition: transform 0.1s;
+}
+.bublegumsr .image__gum .gum_haut .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .bublegumsr .image__gum .gum_bas {
   display: flex;
   justify-content: center;
   width: 20%;
+}
+.bublegumsr .image__gum .gum_bas .survol {
+  transition: transform 0.1s;
+}
+.bublegumsr .image__gum .gum_bas .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .pied_de_page {
