@@ -903,7 +903,7 @@ p {
 .haut-de-page .titre-icon .elt .hdp_titre {
   width: 35%;
   margin-top: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -918,9 +918,14 @@ p {
 
 .lescards {
   padding: 0 16px;
+  background-color: #E1B3D4;
+  margin-bottom: 80px;
+}
+.lescards .titre_section-fruity {
+  text-align: center;
+  padding: 20px;
 }
 .lescards .cards {
-  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -933,7 +938,6 @@ p {
   overflow: hidden;
   position: relative;
   margin-bottom: 20px;
-  box-shadow: 2px 2px 2px #E1B3D4;
 }
 .lescards .cards .card:hover .card__desc {
   transform: translateY(-40px);
@@ -1010,6 +1014,15 @@ p {
   .lescards .cards .card {
     width: calc((100% - 20px) / 3);
   }
+}
+.lescards .maquette_fruity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lescards .maquette_fruity .image_maquette_fruity {
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .oeuvre_photoshop {
@@ -1171,8 +1184,28 @@ p {
   }
 }
 
+.droit_auteurs {
+  background-color: #E1B3D4;
+}
+.droit_auteurs .droit_texte {
+  color: #0F0F0F;
+  padding: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+@media screen and (min-width: 426px) {
+  .droit_auteurs .droit_texte {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .droit_auteurs .droit_texte {
+    font-size: 18px;
+  }
+}
+
 .dankitchener {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .dankitchener .image__dan {
   display: flex;
@@ -1211,6 +1244,7 @@ p {
 
 .bublegumsr {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .bublegumsr .image__gum {
   display: flex;

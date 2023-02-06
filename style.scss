@@ -191,7 +191,6 @@ p {
     }
 }
 
-
 // ABOUT
 .about {
     position: relative;
@@ -838,7 +837,7 @@ p {
             .hdp_titre {
                 width: 35%;
                 margin-top: 200px;
-                margin-bottom: 100px;
+                margin-bottom: 150px;
 
                 display: block;
                 margin-left: auto;
@@ -860,9 +859,15 @@ p {
 // Page DIGITAL
 .lescards {
     padding: 0 16px;
+    background-color: #E1B3D4;
+    margin-bottom: 80px;
+
+    .titre_section-fruity{
+        text-align: center;
+        padding: 20px;
+    }
 
     .cards {
-        margin-bottom: 50px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -875,7 +880,6 @@ p {
             overflow: hidden;
             position: relative;
             margin-bottom: 20px;
-            box-shadow: 2px 2px 2px #E1B3D4;
 
             // &:hover {
             //     .card__icon-container {
@@ -992,6 +996,17 @@ p {
                 // gap: calc(10px * 2);
                 width: calc((100% - (10px * 2)) / 3);
             }
+        }
+    }
+
+    .maquette_fruity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image_maquette_fruity {
+            width: 100%;
+            margin-bottom: 50px;
         }
     }
 }
@@ -1132,18 +1147,18 @@ p {
 }
 
 // Page INFLUENCES
-.nom__artiste{
+.nom__artiste {
     font-family: 'Mango Grotesque';
     font-weight: bold;
     font-size: 50px;
-    letter-spacing: 0.165em;    
+    letter-spacing: 0.165em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
 }
 
-.text__artiste{
+.text__artiste {
     font-size: 12px;
     text-align: center;
     margin-left: 100px;
@@ -1153,13 +1168,33 @@ p {
     @media screen and (min-width: $bp-mobile) {
         font-size: 12px;
     }
+
     @media screen and (min-width: $bp-tablet) {
         font-size: 18px;
     }
 }
 
+.droit_auteurs {
+    background-color: #E1B3D4;
+
+    .droit_texte {
+        color: #0F0F0F;
+        padding: 50px;
+        font-size: 12px;
+        text-align: center;
+
+        @media screen and (min-width: $bp-mobile) {
+            font-size: 12px;
+        }
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 18px;
+        }
+    }
+}
+
 .dankitchener {
-    margin-top: 200px;
+    margin-top: 100px;
 
     .image__dan {
         display: flex;
@@ -1183,6 +1218,7 @@ p {
 
 .brunograffer {
     margin-top: 100px;
+
     .image__bruno {
         display: flex;
         align-items: center;
@@ -1205,6 +1241,8 @@ p {
 
 .bublegumsr {
     margin-top: 100px;
+    margin-bottom: 100px;
+
     .image__gum {
         display: flex;
         align-items: center;
