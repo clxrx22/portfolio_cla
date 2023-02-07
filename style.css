@@ -919,7 +919,7 @@ p {
 
 .lescards {
   padding: 0 16px;
-  background-image: url("images/fond_orange_fruity.jpg");
+  background-image: url("images/oranges.jpg");
   margin-bottom: 80px;
 }
 .lescards .maquette_fruity {
@@ -1372,6 +1372,47 @@ p {
   /* IE 9 */
   /* Safari 3-8 */
   transform: scale(1.1);
+}
+
+.dessins {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dessins .dessins_gauche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche img {
+  width: 20%;
+}
+.dessins .dessins_gauche h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.dessins .dessins_gauche p {
+  text-align: center;
+  font-size: 12px;
+}
+.dessins .dessins_droite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite img {
+  width: 20%;
+}
+.dessins .dessins_droite h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.dessins .dessins_droite p {
+  text-align: center;
+  font-size: 12px;
 }
 
 .pied_de_page {
