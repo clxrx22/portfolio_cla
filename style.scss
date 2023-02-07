@@ -861,12 +861,37 @@ p {
 
 .lescards {
     padding: 0 16px;
-    background-color: #E1B3D4;
+    background-image: url("images/fond_orange_fruity.jpg");
     margin-bottom: 80px;
 
-    .titre_section-fruity {
-        text-align: center;
-        padding: 20px;
+    .maquette_fruity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+
+        .titre_section-fruity {
+            text-align: center;
+            padding: 20px;
+
+            @media screen and (min-width: $bp-mobile) {
+                text-align: right;
+            }
+        }
+
+        .image_maquette_fruity {
+            width: 60%;
+        }
+
+        @media screen and (min-width: $bp-mobile) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .cards {
@@ -1000,17 +1025,6 @@ p {
             }
         }
     }
-
-    .maquette_fruity {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .image_maquette_fruity {
-            width: 100%;
-            margin-bottom: 50px;
-        }
-    }
 }
 
 .oeuvre_photoshop {
@@ -1050,7 +1064,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1067,7 +1081,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1120,7 +1134,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1137,7 +1151,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1190,7 +1204,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1207,7 +1221,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1299,10 +1313,10 @@ p {
             display: flex;
             justify-content: center;
             width: 20%;
-        
+
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1331,7 +1345,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1349,7 +1363,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1379,7 +1393,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
@@ -1397,7 +1411,7 @@ p {
 
             .survol {
                 transition: transform .1s;
-        
+
                 &:hover {
                     -ms-transform: scale(1.1);
                     /* IE 9 */
