@@ -1428,48 +1428,229 @@ p {
 .dessins {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-    .dessins_gauche {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    @media screen and (min-width: $bp-tablet) {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 
-        img {
-            width: 20%;
-        }
+    @media screen and (min-width: $bp-desk-small) {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 
-        h2 {
-            text-align: center;
+    img {
+        width: 70%;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        border-radius: 3%;
+        // box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    }
+
+    h2 {
+        font-family: 'Mango Grotesque Med';
+        font-weight: light;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin: 10px;
+
+        @media screen and (min-width: $bp-mobile) {
             font-size: 30px;
         }
 
-        p {
-            text-align: center;
-            font-size: 12px;
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            font-size: 50px;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 12px;
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 15px;
+        }
+    }
+
+    .dessins_gauche {
+
+        .survol {
+            transition: transform .1s;
+
+            &:hover {
+                -ms-transform: scale(1.1);
+                /* IE 9 */
+                -webkit-transform: scale(1.1);
+                /* Safari 3-8 */
+                transform: scale(1.1);
+            }
+        }
+
+        .lapin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .crane {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .escargot {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .poulpe {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .smile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .cauchemars {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .sirenne {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .diablotin {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .perfection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .fleurs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 
     .dessins_droite {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
 
-        img {
-            width: 20%;
+        .survol {
+            transition: transform .1s;
+
+            &:hover {
+                -ms-transform: scale(1.1);
+                /* IE 9 */
+                -webkit-transform: scale(1.1);
+                /* Safari 3-8 */
+                transform: scale(1.1);
+            }
         }
 
-        h2 {
-            text-align: center;
-            font-size: 30px;
+        .crea {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
-        p {
-            text-align: center;
-            font-size: 12px;
+        .model {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .oeil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cornes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .souris {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .caricature {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .siren {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .fillette {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .eren {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .chat {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .fumee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 }

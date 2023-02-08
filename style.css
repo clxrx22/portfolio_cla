@@ -454,19 +454,10 @@ p {
 .about .contenu-about .photo-moi .icone-scroll-right {
   position: relative;
   margin: 50px;
-  -webkit-animation: 2s scrollRight ease infinite alternate;
-          animation: 2s scrollRight ease infinite alternate;
+  animation: 2s scrollRight ease infinite alternate;
 }
 .about .contenu-about .photo-moi .icone-scroll-right img {
   transform: rotate(-90deg);
-}
-@-webkit-keyframes scrollRight {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
 }
 @keyframes scrollRight {
   0% {
@@ -1377,42 +1368,198 @@ p {
 .dessins {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
-.dessins .dessins_gauche {
+@media screen and (min-width: 768px) {
+  .dessins {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dessins {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+.dessins img {
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 3%;
+}
+.dessins h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin: 10px;
+}
+@media screen and (min-width: 426px) {
+  .dessins h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dessins h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dessins h2 {
+    font-size: 50px;
+  }
+}
+.dessins p {
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .dessins p {
+    font-size: 15px;
+  }
+}
+.dessins .dessins_gauche .survol {
+  transition: transform 0.1s;
+}
+.dessins .dessins_gauche .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.dessins .dessins_gauche .lapin {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.dessins .dessins_gauche img {
-  width: 20%;
+.dessins .dessins_gauche .crane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.dessins .dessins_gauche h2 {
-  text-align: center;
-  font-size: 30px;
+.dessins .dessins_gauche .escargot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.dessins .dessins_gauche p {
-  text-align: center;
-  font-size: 12px;
+.dessins .dessins_gauche .poulpe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.dessins .dessins_droite {
+.dessins .dessins_gauche .smile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche .cauchemars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche .sirenne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche .diablotin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche .perfection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_gauche .fleurs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .survol {
+  transition: transform 0.1s;
+}
+.dessins .dessins_droite .survol:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.dessins .dessins_droite .crea {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.dessins .dessins_droite img {
-  width: 20%;
+.dessins .dessins_droite .model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.dessins .dessins_droite h2 {
-  text-align: center;
-  font-size: 30px;
+.dessins .dessins_droite .oeil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.dessins .dessins_droite p {
-  text-align: center;
-  font-size: 12px;
+.dessins .dessins_droite .cornes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .souris {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .caricature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .siren {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .fillette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .eren {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessins .dessins_droite .fumee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .pied_de_page {
