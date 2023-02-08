@@ -893,12 +893,13 @@ p {
 }
 .haut-de-page .titre-icon .elt .hdp_titre {
   width: 35%;
-  margin-top: 200px;
-  margin-bottom: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   z-index: 999;
+}
+.haut-de-page .titre-icon .elt .influ {
+  width: 40%;
 }
 .haut-de-page .titre-icon .elt .icon_scroll_hdp {
   width: 40px;
@@ -910,7 +911,6 @@ p {
 
 .lescards {
   padding: 0 16px;
-  background-image: url("images/oranges.jpg");
   margin-bottom: 80px;
 }
 .lescards .maquette_fruity {
@@ -922,12 +922,28 @@ p {
   flex-direction: column;
 }
 .lescards .maquette_fruity .titre_section-fruity {
-  text-align: center;
   padding: 20px;
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin: 10px;
 }
 @media screen and (min-width: 426px) {
   .lescards .maquette_fruity .titre_section-fruity {
+    font-size: 30px;
     text-align: right;
+  }
+}
+@media screen and (min-width: 768px) {
+  .lescards .maquette_fruity .titre_section-fruity {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lescards .maquette_fruity .titre_section-fruity {
+    font-size: 70px;
   }
 }
 .lescards .maquette_fruity .image_maquette_fruity {
@@ -1042,7 +1058,6 @@ p {
 }
 @media screen and (min-width: 426px) {
   .oeuvre_photoshop {
-    transform: rotate(-5deg);
     height: 60vh;
   }
 }
@@ -1089,6 +1104,28 @@ p {
   /* Safari 3-8 */
   transform: scale(1.1);
 }
+.oeuvre_photoshop h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+@media screen and (min-width: 426px) {
+  .oeuvre_photoshop h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .oeuvre_photoshop h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .oeuvre_photoshop h2 {
+    font-size: 70px;
+  }
+}
 
 .logo {
   display: flex;
@@ -1100,7 +1137,6 @@ p {
 }
 @media screen and (min-width: 426px) {
   .logo {
-    transform: rotate(5deg);
     height: 60vh;
   }
 }
@@ -1149,6 +1185,28 @@ p {
   /* Safari 3-8 */
   transform: scale(1.1);
 }
+.logo h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+@media screen and (min-width: 426px) {
+  .logo h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .logo h2 {
+    font-size: 70px;
+  }
+}
 
 .oeuvre_numerique {
   display: flex;
@@ -1160,7 +1218,6 @@ p {
 }
 @media screen and (min-width: 426px) {
   .oeuvre_numerique {
-    transform: rotate(-5deg);
     height: 60vh;
   }
 }
@@ -1208,6 +1265,28 @@ p {
   /* IE 9 */
   /* Safari 3-8 */
   transform: scale(1.1);
+}
+.oeuvre_numerique h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+@media screen and (min-width: 426px) {
+  .oeuvre_numerique h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .oeuvre_numerique h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .oeuvre_numerique h2 {
+    font-size: 70px;
+  }
 }
 
 .nom__artiste {
@@ -1560,6 +1639,96 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.mathilde {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.mathilde h1 {
+  margin: 30px;
+  margin-left: 50px;
+  text-align: center;
+}
+.mathilde body {
+  color: #333;
+  text-align: center;
+  background: #222;
+  margin: 0;
+}
+.mathilde ul {
+  padding: 0;
+}
+.mathilde li {
+  list-style: none;
+}
+.mathilde main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.mathilde main h1 {
+  margin-bottom: 50px;
+}
+.mathilde .wrapper {
+  position: relative;
+}
+.mathilde .wrapper:before, .mathilde .wrapper:after {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 100%;
+}
+.mathilde .items {
+  margin: 20px;
+  position: relative;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+}
+.mathilde .items.active {
+  cursor: grab;
+}
+.mathilde .item {
+  display: inline-block;
+  margin-left: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  width: 20%;
+  height: 130px;
+  color: #222;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 130px;
+}
+.mathilde .item:last-child {
+  margin-right: 20px;
+}
+@media screen and (min-width: 500px) {
+  .mathilde .item {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .mathilde .item {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mathilde .wrapper {
+    margin-left: -20px;
+  }
+  .mathilde .item {
+    width: 20%;
+  }
 }
 
 .pied_de_page {
