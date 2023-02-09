@@ -1630,6 +1630,7 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .mathilde h2 {
   text-align: right;
@@ -1688,6 +1689,138 @@ h2 {
 @media screen and (min-width: 1024px) {
   .mathilde .titre_photos .scroll-container .gridscroll .photo {
     width: 25%;
+  }
+}
+
+.bague {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.bague h2 {
+  text-align: right;
+  color: #E1B3D4;
+}
+.bague .titre_photos {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.bague .titre_photos .photoshoot {
+  margin: 30px;
+  text-align: center;
+  color: #F5F5F5;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .bague .titre_photos .photoshoot {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bague .titre_photos .photoshoot {
+    font-size: 32px;
+    margin-right: 50px;
+  }
+}
+.bague .titre_photos .scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+}
+.bague .titre_photos .scroll-container .gridscroll {
+  display: inline-block;
+}
+.bague .titre_photos .scroll-container .gridscroll .photo {
+  width: 50%;
+  margin-right: 22px;
+}
+@media screen and (min-width: 426px) {
+  .bague .titre_photos .scroll-container .gridscroll .photo {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bague .titre_photos .scroll-container .gridscroll .photo {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bague .titre_photos .scroll-container .gridscroll .photo {
+    width: 35%;
+  }
+}
+
+.gant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.gant h2 {
+  text-align: right;
+  color: #E1B3D4;
+}
+.gant .titre_photos {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.gant .titre_photos .photoshoot {
+  margin: 30px;
+  text-align: center;
+  color: #F5F5F5;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .gant .titre_photos .photoshoot {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .gant .titre_photos .photoshoot {
+    font-size: 32px;
+    margin-right: 50px;
+  }
+}
+.gant .titre_photos .scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+}
+.gant .titre_photos .scroll-container .gridscroll {
+  display: inline-block;
+}
+.gant .titre_photos .scroll-container .gridscroll .photo {
+  width: 45%;
+  margin-right: 22px;
+}
+@media screen and (min-width: 426px) {
+  .gant .titre_photos .scroll-container .gridscroll .photo {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gant .titre_photos .scroll-container .gridscroll .photo {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .gant .titre_photos .scroll-container .gridscroll .photo {
+    width: 30%;
   }
 }
 

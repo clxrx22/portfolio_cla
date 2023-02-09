@@ -1707,6 +1707,7 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 
     h2 {
         text-align: right;
@@ -1768,6 +1769,203 @@ h2 {
         }
     }
 }
+
+.bague {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+
+    h2 {
+        text-align: right;
+        color: #E1B3D4;
+    }
+
+    .titre_photos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        .photoshoot {
+            margin: 30px;
+            text-align: center;
+            color: #F5F5F5;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-weight: 700px;
+            font-size: 18px;
+
+            @media screen and (min-width: $bp-tablet) {
+                font-size: 24px;
+                margin-right: 30px;
+            }
+
+            @media screen and (min-width: $bp-desk-small) {
+                font-size: 32px;
+                margin-right: 50px;
+            }
+        }
+
+        .scroll-container {
+            overflow: auto;
+            white-space: nowrap;
+            padding: 5px 70px 5px 20px;
+            background: transparent;
+            height: 100%;
+            border-radius: 15px;
+
+            .gridscroll {
+                display: inline-block;
+
+                .photo {
+                    width: 50%;
+                    margin-right: 22px;
+
+                    @media screen and (min-width: $bp-mobile) {
+                        width: 45%;
+                    }
+
+                    @media screen and (min-width: $bp-tablet) {
+                        width: 40%;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        width: 35%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .sam {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 50px;
+//     flex-direction: column;
+
+//     h2 {
+//         text-align: right;
+//         color: #E1B3D4;
+//     }
+
+//     .titre_photos {
+//         display: flex;
+//         align-items: center;
+//         flex-direction: row;
+
+//         .photoshoot {
+//             margin: 30px;
+//             text-align: center;
+//             color: #F5F5F5;
+//             font-family: 'IBM Plex Sans Thai', sans-serif;
+//             font-weight: 700px;
+//             font-size: 18px;
+
+//             @media screen and (min-width: $bp-tablet) {
+//                 font-size: 24px;
+//                 margin-right: 30px;
+//             }
+
+//             @media screen and (min-width: $bp-desk-small) {
+//                 font-size: 32px;
+//                 margin-right: 50px;
+//             }
+//         }
+
+//         .scroll-container {
+//             .gridscroll {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+
+//                 .photo {
+//                     width: 45%;
+//                     margin-right: 22px;
+
+//                     @media screen and (min-width: $bp-mobile) {
+//                         width: 35%;
+//                     }
+
+//                     @media screen and (min-width: $bp-tablet) {
+//                         width: 30%;
+//                     }
+
+//                     @media screen and (min-width: $bp-desk-small) {
+//                         width: 25%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.gant {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+
+    h2 {
+        text-align: right;
+        color: #E1B3D4;
+    }
+
+    .titre_photos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        .photoshoot {
+            margin: 30px;
+            text-align: center;
+            color: #F5F5F5;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-weight: 700px;
+            font-size: 18px;
+
+            @media screen and (min-width: $bp-tablet) {
+                font-size: 24px;
+                margin-right: 30px;
+            }
+
+            @media screen and (min-width: $bp-desk-small) {
+                font-size: 32px;
+                margin-right: 50px;
+            }
+        }
+
+        .scroll-container {
+            overflow: auto;
+            white-space: nowrap;
+            padding: 5px 70px 5px 20px;
+            background: transparent;
+            height: 100%;
+            border-radius: 15px;
+
+            .gridscroll {
+                display: inline-block;
+
+                .photo {
+                    width: 45%;
+                    margin-right: 22px;
+
+                    @media screen and (min-width: $bp-mobile) {
+                        width: 40%;
+                    }
+
+                    @media screen and (min-width: $bp-tablet) {
+                        width: 35%;
+                    }
+
+                    @media screen and (min-width: $bp-desk-small) {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 // FOOTER
 .pied_de_page {
