@@ -266,31 +266,6 @@ h2 {
   }
 }
 
-p {
-  display: block;
-  color: #F5F5F5;
-  font-family: "IBM Plex Sans Thai", sans-serif;
-  font-weight: 700px;
-  font-size: 8px;
-  margin: 8px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  p {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  p {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  p {
-    font-size: 32px;
-  }
-}
-
 .accueil {
   display: flex;
   justify-content: center;
@@ -1306,6 +1281,10 @@ p {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
+  display: block;
+  color: #F5F5F5;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
 }
 @media screen and (min-width: 426px) {
   .text__artiste {
@@ -1322,6 +1301,8 @@ p {
   background-color: #E1B3D4;
 }
 .droit_auteurs .droit_texte {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
   color: #0F0F0F;
   padding: 50px;
   font-size: 12px;
@@ -1490,6 +1471,10 @@ p {
   }
 }
 .dessins p {
+  display: block;
+  color: #F5F5F5;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
   text-align: center;
   font-size: 12px;
 }
@@ -1643,91 +1628,66 @@ p {
 
 .mathilde {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mathilde h2 {
+  text-align: right;
+  color: #E1B3D4;
+}
+.mathilde .titre_photos {
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
-.mathilde h1 {
+.mathilde .titre_photos .photoshoot {
   margin: 30px;
-  margin-left: 50px;
   text-align: center;
+  color: #F5F5F5;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
+  font-size: 18px;
 }
-.mathilde body {
-  color: #333;
-  text-align: center;
-  background: #222;
-  margin: 0;
+@media screen and (min-width: 768px) {
+  .mathilde .titre_photos .photoshoot {
+    font-size: 24px;
+    margin-right: 30px;
+  }
 }
-.mathilde ul {
-  padding: 0;
+@media screen and (min-width: 1024px) {
+  .mathilde .titre_photos .photoshoot {
+    font-size: 32px;
+    margin-right: 50px;
+  }
 }
-.mathilde li {
-  list-style: none;
-}
-.mathilde main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-.mathilde main h1 {
-  margin-bottom: 50px;
-}
-.mathilde .wrapper {
-  position: relative;
-}
-.mathilde .wrapper:before, .mathilde .wrapper:after {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  content: "";
-  display: block;
-  width: 20px;
-  height: 100%;
-}
-.mathilde .items {
-  margin: 20px;
-  position: relative;
-  width: 90%;
-  overflow: hidden;
+.mathilde .titre_photos .scroll-container {
+  overflow: auto;
   white-space: nowrap;
-  font-size: 0;
-  cursor: pointer;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
 }
-.mathilde .items.active {
-  cursor: grab;
-}
-.mathilde .item {
+.mathilde .titre_photos .scroll-container .gridscroll {
   display: inline-block;
-  margin-left: 20px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  width: 20%;
-  height: 130px;
-  color: #222;
-  font-size: 33px;
-  font-weight: bold;
-  line-height: 130px;
 }
-.mathilde .item:last-child {
-  margin-right: 20px;
+.mathilde .titre_photos .scroll-container .gridscroll .photo {
+  width: 45%;
+  margin-right: 22px;
 }
-@media screen and (min-width: 500px) {
-  .mathilde .item {
-    width: 33%;
+@media screen and (min-width: 426px) {
+  .mathilde .titre_photos .scroll-container .gridscroll .photo {
+    width: 35%;
   }
 }
-@media screen and (min-width: 800px) {
-  .mathilde .item {
+@media screen and (min-width: 768px) {
+  .mathilde .titre_photos .scroll-container .gridscroll .photo {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mathilde .titre_photos .scroll-container .gridscroll .photo {
     width: 25%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .mathilde .wrapper {
-    margin-left: -20px;
-  }
-  .mathilde .item {
-    width: 20%;
   }
 }
 

@@ -12,8 +12,6 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="main.js"></script>
-
 </head>
 
 <body>
@@ -57,61 +55,43 @@
     </section>
 
     <section class="mathilde">
-        <h1>P <br>H <br>O <br>T <br>O <br>S <br>H <br>O <br>O <br>T</h1>
-        <div class="wrapper">
-            <ul class="items">
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde1.jpg" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde2.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde3.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde4.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde5.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde6.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde7.png" alt="mathilde"></li>
-                <li class="item"><img class="img-fluid" src="images/shoot_mathilde8.png" alt="mathilde"></li>
-            </ul>
+
+        <h2>Mathilde Pfister</h2>
+
+        <div class="titre_photos">
+            <div class="scroll-container">
+                <div class="gridscroll">
+                    <img class="img-fluid photo" src="images/shoot_mathilde1.jpg" alt="mathilde1">
+                    <img class="img-fluid photo" src="images/shoot_mathilde2.png" alt="mathilde2">
+                    <img class="img-fluid photo" src="images/shoot_mathilde3.png" alt="mathilde3">
+                    <img class="img-fluid photo" src="images/shoot_mathilde4.png" alt="mathilde4">
+                    <img class="img-fluid photo" src="images/shoot_mathilde5.png" alt="mathilde5">
+                    <img class="img-fluid photo" src="images/shoot_mathilde7.png" alt="mathilde7">
+                    <img class="img-fluid photo" src="images/shoot_mathilde8.png" alt="mathilde8">
+                </div>
+            </div>
+
+            <h3 class="photoshoot">P <br>H <br>O <br>T <br>O <br>S <br>H <br>O <br>O <br>T</h3>
+
         </div>
     </section>
 
-    <script>
-        let isDown = false;
-        let startX;
-        let scrollLeft;
-        const slider = document.querySelector('.items');
+    <!-- <section class="bague">
 
-        const end = () => {
-            isDown = false;
-            slider.classList.remove('active');
-        }
+        <h1>P <br>H <br>O <br>T <br>O <br>S <br>H <br>O <br>O <br>T</h1>
 
-        const start = (e) => {
-            isDown = true;
-            slider.classList.add('active');
-            startX = e.pageX || e.touches[0].pageX - slider.offsetLeft;
-            scrollLeft = slider.scrollLeft;
-        }
-
-        const move = (e) => {
-            if (!isDown) return;
-
-            e.preventDefault();
-            const x = e.pageX || e.touches[0].pageX - slider.offsetLeft;
-            const dist = (x - startX);
-            slider.scrollLeft = scrollLeft - dist;
-        }
-
-        (() => {
-            slider.addEventListener('mousedown', start);
-            slider.addEventListener('touchstart', start);
-
-            slider.addEventListener('mousemove', move);
-            slider.addEventListener('touchmove', move);
-
-            slider.addEventListener('mouseleave', end);
-            slider.addEventListener('mouseup', end);
-            slider.addEventListener('touchend', end);
-        })();
-
-    </script>
+        <div class="scroll-container">
+            <div class="gridscroll">
+                <img class="img-fluid photo" src="images/shoot_mathilde1.jpg" alt="mathilde1">
+                <img class="img-fluid photo" src="images/shoot_mathilde2.png" alt="mathilde2">
+                <img class="img-fluid photo" src="images/shoot_mathilde3.png" alt="mathilde3">
+                <img class="img-fluid photo" src="images/shoot_mathilde4.png" alt="mathilde4">
+                <img class="img-fluid photo" src="images/shoot_mathilde5.png" alt="mathilde5">
+                <img class="img-fluid photo" src="images/shoot_mathilde7.png" alt="mathilde7">
+                <img class="img-fluid photo" src="images/shoot_mathilde8.png" alt="mathilde8">
+            </div>
+        </div>
+    </section> -->
 
     <footer class="pied_de_page">
         <div class="centre_footer">
