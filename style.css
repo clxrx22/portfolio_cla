@@ -1824,6 +1824,130 @@ h2 {
   }
 }
 
+.customs .clown {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+@media screen and (min-width: 426px) {
+  .customs .clown {
+    flex-direction: row;
+  }
+}
+.customs .clown .texte_clown {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 12px;
+  color: #F5F5F5;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 426px) {
+  .customs .clown .texte_clown {
+    font-size: 12px;
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customs .clown .texte_clown {
+    font-size: 18px;
+  }
+}
+.customs .clown .texte_clown h3 {
+  font-size: 20px;
+}
+@media screen and (min-width: 426px) {
+  .customs .clown .texte_clown h3 {
+    font-size: 30px;
+  }
+}
+.customs .clown .photo_clown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.customs .clown .photo_clown .triangle_gauche {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.customs .clown .photo_clown .triangle_gauche .clown1 {
+  width: 50%;
+}
+.customs .clown .photo_clown .triangle_gauche .clown2 {
+  width: 60%;
+}
+.customs .clown .photo_clown .triangle_droit {
+  border-bottom: #E1B3D4;
+  border-width: 500px;
+}
+.customs .clown .photo_clown .triangle_droit .clown3 {
+  width: 80%;
+}
+.customs .jean {
+  margin-bottom: 100px;
+}
+.customs .jean .photo_jean {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.customs .jean .photo_jean .triangle_haut {
+  display: flex;
+  flex-direction: column;
+}
+.customs .jean .photo_jean .triangle_haut .jean1 {
+  align-self: flex-end;
+}
+.customs .jean .photo_jean .triangle_haut .jean3 {
+  width: 40%;
+}
+.customs .jean .photo_jean .triangle_bas {
+  display: flex;
+  flex-direction: column;
+}
+.customs .jean .photo_jean .triangle_bas .jean2 {
+  align-self: flex-end;
+  width: 60%;
+}
+.customs .jean .photo_jean .triangle_bas .grp_jean {
+  display: flex;
+  flex-direction: row;
+}
+.customs .jean .photo_jean .triangle_bas .grp_jean .jean4 {
+  align-self: flex-start;
+  width: 50%;
+}
+.customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 12px;
+  color: #F5F5F5;
+  font-weight: 700px;
+  padding-top: 50px;
+}
+@media screen and (min-width: 426px) {
+  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+    font-size: 18px;
+  }
+}
+.customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean h3 {
+  font-size: 20px;
+}
+@media screen and (min-width: 426px) {
+  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean h3 {
+    font-size: 30px;
+  }
+}
+
 .pied_de_page {
   background-color: #F5F5F5;
 }

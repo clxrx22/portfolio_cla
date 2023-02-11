@@ -1966,6 +1966,145 @@ h2 {
     }
 }
 
+// CUSTOMS
+.customs {
+    .clown {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
+
+        .texte_clown {
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-size: 12px;
+            color: #F5F5F5;
+            font-weight: 700px;
+            margin-bottom: 20px;
+
+            @media screen and (min-width: $bp-mobile) {
+                font-size: 12px;
+                margin-left: 100px;
+            }
+
+            @media screen and (min-width: $bp-tablet) {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 20px;
+
+                @media screen and (min-width: $bp-mobile) {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .photo_clown {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .triangle_gauche {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .clown1 {
+                    width: 50%;
+                }
+
+                .clown2 {
+                    width: 60%;
+                }
+            }
+
+            .triangle_droit {
+                border-bottom: #E1B3D4;
+                border-width: 500px;
+
+                .clown3 {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .jean {
+        margin-bottom: 100px;
+        .photo_jean {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .triangle_haut {
+                display: flex;
+                flex-direction: column;
+
+                .jean1 {
+                    align-self: flex-end;
+                }
+
+                .jean3 {
+                    width: 40%;
+                }
+            }
+
+            .triangle_bas {
+                display: flex;
+                flex-direction: column;
+
+                .jean2 {
+                    align-self: flex-end;
+                    width: 60%;
+                }
+
+                .grp_jean{
+                    display: flex;
+                    flex-direction: row;
+
+                    .jean4 {
+                        align-self: flex-start;
+                        width: 50%;
+                    }
+                    .texte_jean {
+                        font-family: 'IBM Plex Sans Thai', sans-serif;
+                        font-size: 12px;
+                        color: #F5F5F5;
+                        font-weight: 700px;
+                        padding-top: 50px;
+        
+                        @media screen and (min-width: $bp-mobile) {
+                            font-size: 12px;
+                        }
+        
+                        @media screen and (min-width: $bp-tablet) {
+                            font-size: 18px;
+                        }
+        
+                        h3 {
+                            font-size: 20px;
+        
+                            @media screen and (min-width: $bp-mobile) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
 
 // FOOTER
 .pied_de_page {
