@@ -866,12 +866,49 @@ h2 {
 .haut-de-page .burger-hdp label {
   cursor: pointer;
 }
+.haut-de-page .burger-hdp label img {
+  width: 60%;
+}
+@media screen and (min-width: 426px) {
+  .haut-de-page .burger-hdp label img {
+    width: auto;
+  }
+}
+.haut-de-page .logo_cla_rose {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.haut-de-page .logo_cla_rose .logo_hdp {
+  width: 10%;
+}
+@media screen and (min-width: 426px) {
+  .haut-de-page .logo_cla_rose .logo_hdp {
+    width: 9%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .haut-de-page .logo_cla_rose .logo_hdp {
+    width: 7%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .haut-de-page .logo_cla_rose .logo_hdp {
+    width: 5%;
+  }
+}
 .haut-de-page .titre-icon .elt .hdp_titre {
   width: 35%;
+  margin-top: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   z-index: 999;
+}
+@media screen and (min-width: 426px) {
+  .haut-de-page .titre-icon .elt .hdp_titre {
+    margin-top: 0;
+  }
 }
 .haut-de-page .titre-icon .elt .influ {
   width: 40%;
@@ -1888,64 +1925,67 @@ h2 {
   width: 80%;
 }
 .customs .jean {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 100px;
 }
-.customs .jean .photo_jean {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width: 426px) {
+  .customs .jean {
+    flex-direction: row;
+  }
 }
-.customs .jean .photo_jean .triangle_haut {
-  display: flex;
-  flex-direction: column;
-}
-.customs .jean .photo_jean .triangle_haut .jean1 {
-  align-self: flex-end;
-}
-.customs .jean .photo_jean .triangle_haut .jean3 {
-  width: 40%;
-}
-.customs .jean .photo_jean .triangle_bas {
-  display: flex;
-  flex-direction: column;
-}
-.customs .jean .photo_jean .triangle_bas .jean2 {
-  align-self: flex-end;
-  width: 60%;
-}
-.customs .jean .photo_jean .triangle_bas .grp_jean {
-  display: flex;
-  flex-direction: row;
-}
-.customs .jean .photo_jean .triangle_bas .grp_jean .jean4 {
-  align-self: flex-start;
-  width: 50%;
-}
-.customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+.customs .jean .texte_jean {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-size: 12px;
   color: #F5F5F5;
   font-weight: 700px;
-  padding-top: 50px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 426px) {
-  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+  .customs .jean .texte_jean {
     font-size: 12px;
+    margin-right: 100px;
   }
 }
 @media screen and (min-width: 768px) {
-  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean {
+  .customs .jean .texte_jean {
     font-size: 18px;
   }
 }
-.customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean h3 {
+.customs .jean .texte_jean h3 {
   font-size: 20px;
 }
 @media screen and (min-width: 426px) {
-  .customs .jean .photo_jean .triangle_bas .grp_jean .texte_jean h3 {
+  .customs .jean .texte_jean h3 {
     font-size: 30px;
   }
+}
+.customs .jean .photo_jean {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.customs .jean .photo_jean .triangle_gauche {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.customs .jean .photo_jean .triangle_gauche .jean1 {
+  width: 50%;
+}
+.customs .jean .photo_jean .triangle_gauche .jean4 {
+  width: 60%;
+}
+.customs .jean .photo_jean .triangle_droit {
+  border-bottom: #E1B3D4;
+  border-width: 500px;
+}
+.customs .jean .photo_jean .triangle_droit .jean2 {
+  width: 80%;
 }
 
 .pied_de_page {

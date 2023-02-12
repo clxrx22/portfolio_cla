@@ -807,6 +807,36 @@ h2 {
 
         label {
             cursor: pointer;
+
+            img {
+                width: 60%;
+
+                @media screen and (min-width: $bp-mobile) {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .logo_cla_rose {
+        display: flex;
+        justify-content: flex-end;
+        padding: 30px;
+
+        .logo_hdp {
+            width: 10%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 9%;
+            }
+
+            @media screen and (min-width: $bp-tablet) {
+                width: 7%;
+            }
+
+            @media screen and (min-width: $bp-desk-small) {
+                width: 5%;
+            }
         }
     }
 
@@ -814,13 +844,17 @@ h2 {
         .elt {
             .hdp_titre {
                 width: 35%;
-                // margin-top: 200px;
+                margin-top: 100px;
                 // margin-bottom: 150px;
 
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 z-index: 999;
+
+                @media screen and (min-width: $bp-mobile) {
+                    margin-top: 0;
+                }
             }
 
             .influ {
@@ -2037,71 +2071,74 @@ h2 {
     }
 
     .jean {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
         margin-bottom: 100px;
+
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
+
+        .texte_jean {
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-size: 12px;
+            color: #F5F5F5;
+            font-weight: 700px;
+            margin-bottom: 20px;
+
+            @media screen and (min-width: $bp-mobile) {
+                font-size: 12px;
+                margin-right: 100px;
+            }
+
+            @media screen and (min-width: $bp-tablet) {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 20px;
+
+                @media screen and (min-width: $bp-mobile) {
+                    font-size: 30px;
+                }
+            }
+        }
+
         .photo_jean {
             display: flex;
             flex-direction: row;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
 
-            .triangle_haut {
+            .triangle_gauche {
                 display: flex;
+                justify-content: space-between;
                 flex-direction: column;
+                align-items: flex-end;
 
                 .jean1 {
-                    align-self: flex-end;
+                    width: 50%;
                 }
 
-                .jean3 {
-                    width: 40%;
-                }
-            }
-
-            .triangle_bas {
-                display: flex;
-                flex-direction: column;
-
-                .jean2 {
-                    align-self: flex-end;
+                .jean4 {
                     width: 60%;
                 }
-
-                .grp_jean{
-                    display: flex;
-                    flex-direction: row;
-
-                    .jean4 {
-                        align-self: flex-start;
-                        width: 50%;
-                    }
-                    .texte_jean {
-                        font-family: 'IBM Plex Sans Thai', sans-serif;
-                        font-size: 12px;
-                        color: #F5F5F5;
-                        font-weight: 700px;
-                        padding-top: 50px;
-        
-                        @media screen and (min-width: $bp-mobile) {
-                            font-size: 12px;
-                        }
-        
-                        @media screen and (min-width: $bp-tablet) {
-                            font-size: 18px;
-                        }
-        
-                        h3 {
-                            font-size: 20px;
-        
-                            @media screen and (min-width: $bp-mobile) {
-                                font-size: 30px;
-                            }
-                        }
-                    }
-                }
             }
 
-            
+            .triangle_droit {
+
+                border-bottom: #E1B3D4;
+                border-width: 500px;
+
+                .jean2 {
+                    width: 80%;
+                }
+            }
         }
+
+
     }
 }
 
