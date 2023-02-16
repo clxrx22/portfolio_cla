@@ -457,7 +457,7 @@ h2 {
 .about .contenu-about .texte h3 {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: 700px;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 60px;
   border-bottom: 3px solid #E1B3D4;
   padding-bottom: 0;
@@ -465,14 +465,14 @@ h2 {
 }
 @media screen and (min-width: 426px) {
   .about .contenu-about .texte h3 {
-    font-size: 36px;
+    font-size: 32px;
     border-bottom: 5px solid #E1B3D4;
     padding-bottom: 10px;
   }
 }
 @media screen and (min-width: 768px) {
   .about .contenu-about .texte h3 {
-    font-size: 48px;
+    font-size: 38px;
     padding-bottom: 20px;
   }
 }
@@ -481,18 +481,15 @@ h2 {
     padding-bottom: 35px;
   }
 }
-.about .contenu-about .texte h3 + p {
-  margin-top: 10px;
-}
 .about .contenu-about .texte p {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: 700;
   line-height: 1.4;
-  font-size: 20px;
+  font-size: 12px;
 }
 @media screen and (min-width: 768px) {
   .about .contenu-about .texte p {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 .about .contenu-about .texte.double {
@@ -527,104 +524,85 @@ h2 {
   padding-top: 90px;
 }
 .about .contenu-about .contact {
-  margin-right: 200px;
+  margin-right: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: right;
-}
-@media screen and (min-width: 426px) {
-  .about .contenu-about .contact {
-    margin: 0 260px 0 200px;
-  }
+  flex-direction: row;
 }
 .about .contenu-about .contact h3 {
   color: #F5F5F5;
   border-bottom: 5px solid #E1B3D4;
   padding-bottom: 20px;
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
   font-family: "IBM Plex Sans Thai", sans-serif;
 }
 @media screen and (min-width: 426px) {
   .about .contenu-about .contact h3 {
     padding-bottom: 35px;
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 768px) {
   .about .contenu-about .contact h3 {
-    font-size: 48px;
+    font-size: 42px;
   }
 }
-.about .contenu-about .contact .contact-me .icones-contact {
-  width: 10%;
-  height: 70px;
-  margin: 20px;
+.about .contenu-about .contact .contact_plus_cv {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  flex-wrap: nowrap;
 }
-.about .contenu-about .contact .contact-me .icones-contact a {
+.about .contenu-about .contact .contact_plus_cv .contact-me {
+  margin: 50px;
+}
+.about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 55px;
 }
-.about .contenu-about .contact .contact-me .icones-contact a img {
-  margin: 10px;
-  height: 30%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  justify-content: space-evenly;
+.about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens .image_qrcode_liens {
+  width: 100%;
 }
-@media screen and (min-width: 426px) {
-  .about .contenu-about .contact .contact-me .icones-contact a img {
-    height: 50%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .about .contenu-about .contact .contact-me .icones-contact a img {
-    height: 70%;
-  }
-}
-.about .contenu-about .contact .cv {
-  margin-top: 30px;
+.about .contenu-about .contact .contact_plus_cv .cv {
+  margin: 50px;
 }
 @media screen and (min-width: 426px) {
-  .about .contenu-about .contact .cv {
+  .about .contenu-about .contact .contact_plus_cv .cv {
     margin-top: 60px;
   }
 }
-.about .contenu-about .contact .cv .elt-button {
+.about .contenu-about .contact .contact_plus_cv .cv .elt-button {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 55px;
 }
-.about .contenu-about .contact .cv .elt-button button {
+.about .contenu-about .contact .contact_plus_cv .cv .elt-button button {
   position: relative;
   background-color: #F5F5F5;
   cursor: pointer;
   max-width: 100%;
-  padding: 10px 50px;
+  padding: 5px 30px;
   border-radius: 100px;
   border-style: none;
   box-shadow: -10px 10px 15px #E1B3D4;
   box-sizing: border-box;
 }
 @media screen and (min-width: 426px) {
-  .about .contenu-about .contact .cv .elt-button button {
-    padding: 15px 100px;
+  .about .contenu-about .contact .contact_plus_cv .cv .elt-button button {
+    padding: 10px 70px;
   }
 }
 @media screen and (min-width: 768px) {
-  .about .contenu-about .contact .cv .elt-button button {
-    padding: 20px 120px;
+  .about .contenu-about .contact .contact_plus_cv .cv .elt-button button {
+    padding: 15px 100px;
   }
 }
-.about .contenu-about .contact .cv .elt-button button a {
+.about .contenu-about .contact .contact_plus_cv .cv .elt-button button a {
   font-family: "Mango Grotesque";
   font-size: 50px;
   font-weight: 200;
@@ -634,11 +612,11 @@ h2 {
   letter-spacing: 10px;
 }
 @media screen and (min-width: 426px) {
-  .about .contenu-about .contact .cv .elt-button button a {
+  .about .contenu-about .contact .contact_plus_cv .cv .elt-button button a {
     font-size: 82px;
   }
 }
-.about .contenu-about .contact .icone-scroll-contact {
+.about .contenu-about .contact .contact_plus_cv .cv .icone-scroll-contact {
   margin-top: 80px;
   display: flex;
   justify-content: center;
