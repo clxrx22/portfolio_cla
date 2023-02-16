@@ -86,6 +86,7 @@ h2 {
         justify-content: center;
 
         &_inner {
+            width: 100%;
             max-width: 500px;
             position: relative;
             text-align: center;
@@ -163,7 +164,7 @@ h2 {
             align-items: center;
 
             position: absolute;
-            bottom: 0px;
+            bottom: 12px;
         }
 
     }
@@ -262,7 +263,8 @@ h2 {
                 animation: 2s scrollRight ease infinite alternate;
 
                 img {
-                    transform: rotate(-90deg);
+                    width: 150%;
+                    transform: rotate(90deg);
                 }
 
                 @keyframes scrollRight {
@@ -319,10 +321,10 @@ h2 {
                 font-family: 'IBM Plex Sans Thai', sans-serif;
                 font-weight: 700;
                 line-height: 1.4;
-                font-size: 12px;
+                font-size: 18px;
 
-                @media screen and (min-width: $bp-tablet) {
-                    font-size: 18px;
+                @media screen and (min-width: $bp-desk-small) {
+                    font-size: 28px;
                 }
             }
 
@@ -373,51 +375,59 @@ h2 {
 
         // CONTACT
         .contact {
-            // margin: 0px 200px 0px 0px;
-            margin-right: 600px;
+            margin-right: 200px;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: row;
+            flex-direction: column;
 
-            // @media screen and (min-width: $bp-mobile) {
-            //     margin: 0 260px 0 200px;
-            // }
+            @media screen and (min-width: $bp-mobile) {
+                margin: 0 260px 0 200px;
+            }
 
             h3 {
                 color: #F5F5F5;
                 border-bottom: 5px solid #E1B3D4;
                 padding-bottom: 20px;
                 text-align: center;
-                font-size: 22px;
+                font-size: 28px;
                 font-family: 'IBM Plex Sans Thai', sans-serif;
 
                 @media screen and (min-width: $bp-mobile) {
                     padding-bottom: 35px;
-                    font-size: 32px;
+                    font-size: 38px;
                 }
 
                 @media screen and (min-width: $bp-tablet) {
-                    font-size: 42px;
+                    font-size: 48px;
                 }
             }
 
             .contact_plus_cv {
                 display: flex;
                 justify-content: center;
-                flex-direction: row;
-                
+                align-items: center;
+                flex-direction: column;
+
                 .contact-me {
-                    margin: 50px;
+                    margin-top: 30px;
 
                     .qrcode_liens {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        margin-top: 55px;
+                        margin-top: 20px;
 
-                        .image_qrcode_liens {
-                            width: 100%;
+                        .qrcode_lien {
+                            width: 50%;
+
+                            @media screen and (min-width: $bp-mobile) {
+                                width: 30%;
+                            }
+                            @media screen and (min-width: $bp-tablet) {
+                                width: 20%;
+                            }
+                            
                         }
                     }
 
@@ -457,8 +467,7 @@ h2 {
                 }
 
                 .cv {
-                    margin: 50px;
-                    // margin-top: 30px;
+                    margin-top: 30px;
 
                     @media screen and (min-width: $bp-mobile) {
                         margin-top: 60px;
@@ -506,14 +515,14 @@ h2 {
                                 }
                             }
                         }
-                    }
+                    } 
+                }
 
-                    .icone-scroll-contact {
-                        margin-top: 80px;
-                        display: flex;
-                        justify-content: center;
-
-                    }
+                .icone-scroll-contact {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-bottom: 100px;    
                 }
             }
         }
@@ -843,6 +852,11 @@ h2 {
         padding: 30px;
 
         .logo_hdp {
+            -webkit-animation: logo 2s linear infinite;
+            -moz-animation: logo 2s linear infinite;
+            -ms-animation: logo 2s linear infinite;
+            -o-animation: logo 2s linear infinite;
+            animation: logo 2s linear infinite;
             width: 10%;
 
             @media screen and (min-width: $bp-mobile) {
@@ -856,6 +870,24 @@ h2 {
             @media screen and (min-width: $bp-desk-small) {
                 width: 5%;
             }
+    
+            @keyframes logo {
+                from {
+                    -ms-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+    
+                to {
+                    -ms-transform: rotate(360deg);
+                    -moz-transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    -o-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
         }
     }
 
@@ -865,24 +897,24 @@ h2 {
                 width: 35%;
                 margin-top: 100px;
                 // margin-bottom: 150px;
-
+    
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 z-index: 999;
-
+    
                 @media screen and (min-width: $bp-mobile) {
                     margin-top: 0;
                 }
             }
-
+    
             .influ {
                 width: 40%;
             }
-
+    
             .icon_scroll_hdp {
                 width: 40px;
-
+    
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -891,6 +923,7 @@ h2 {
         }
     }
 }
+
 
 // Page DIGITAL
 

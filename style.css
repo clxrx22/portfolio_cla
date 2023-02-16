@@ -277,6 +277,7 @@ h2 {
   justify-content: center;
 }
 .accueil .welcome_inner {
+  width: 100%;
   max-width: 500px;
   position: relative;
   text-align: center;
@@ -349,7 +350,7 @@ h2 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 0px;
+  bottom: 12px;
 }
 
 .about {
@@ -432,7 +433,8 @@ h2 {
   animation: 2s scrollRight ease infinite alternate;
 }
 .about .contenu-about .photo-moi .icone-scroll-right img {
-  transform: rotate(-90deg);
+  width: 150%;
+  transform: rotate(90deg);
 }
 @keyframes scrollRight {
   0% {
@@ -485,11 +487,11 @@ h2 {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: 700;
   line-height: 1.4;
-  font-size: 12px;
+  font-size: 18px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .about .contenu-about .texte p {
-    font-size: 18px;
+    font-size: 28px;
   }
 }
 .about .contenu-about .texte.double {
@@ -524,50 +526,66 @@ h2 {
   padding-top: 90px;
 }
 .about .contenu-about .contact {
-  margin-right: 600px;
+  margin-right: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact {
+    margin: 0 260px 0 200px;
+  }
 }
 .about .contenu-about .contact h3 {
   color: #F5F5F5;
   border-bottom: 5px solid #E1B3D4;
   padding-bottom: 20px;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "IBM Plex Sans Thai", sans-serif;
 }
 @media screen and (min-width: 426px) {
   .about .contenu-about .contact h3 {
     padding-bottom: 35px;
-    font-size: 32px;
+    font-size: 38px;
   }
 }
 @media screen and (min-width: 768px) {
   .about .contenu-about .contact h3 {
-    font-size: 42px;
+    font-size: 48px;
   }
 }
 .about .contenu-about .contact .contact_plus_cv {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
 }
 .about .contenu-about .contact .contact_plus_cv .contact-me {
-  margin: 50px;
+  margin-top: 30px;
 }
 .about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 20px;
 }
-.about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens .image_qrcode_liens {
-  width: 100%;
+.about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens .qrcode_lien {
+  width: 50%;
+}
+@media screen and (min-width: 426px) {
+  .about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens .qrcode_lien {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .contenu-about .contact .contact_plus_cv .contact-me .qrcode_liens .qrcode_lien {
+    width: 20%;
+  }
 }
 .about .contenu-about .contact .contact_plus_cv .cv {
-  margin: 50px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 426px) {
   .about .contenu-about .contact .contact_plus_cv .cv {
@@ -616,10 +634,11 @@ h2 {
     font-size: 82px;
   }
 }
-.about .contenu-about .contact .contact_plus_cv .cv .icone-scroll-contact {
-  margin-top: 80px;
+.about .contenu-about .contact .contact_plus_cv .icone-scroll-contact {
+  margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-bottom: 100px;
 }
 
 .nav-home {
@@ -860,6 +879,7 @@ h2 {
   padding: 30px;
 }
 .haut-de-page .logo_cla_rose .logo_hdp {
+  animation: logo 2s linear infinite;
   width: 10%;
 }
 @media screen and (min-width: 426px) {
@@ -875,6 +895,14 @@ h2 {
 @media screen and (min-width: 1024px) {
   .haut-de-page .logo_cla_rose .logo_hdp {
     width: 5%;
+  }
+}
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 .haut-de-page .titre-icon .elt .hdp_titre {
