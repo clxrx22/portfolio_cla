@@ -377,7 +377,8 @@ h2 {
 
         // CONTACT
         .contact {
-            margin: 0px 200px 0px 0px;
+            // margin: 0px 200px 0px 0px;
+            margin-right: 200px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -422,7 +423,8 @@ h2 {
 
                         img {
                             margin: 10px;
-
+                            // width: 30px;
+                            height: 30%;
                             display: flex;
                             justify-content: center;
                             text-align: center;
@@ -638,6 +640,7 @@ h2 {
 
 // menu burger
 .menu {
+    position: fixed;
     overflow: hidden;
 
     input[name="menu-toggler"] {

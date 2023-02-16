@@ -1,147 +1,147 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600;700&family=Poppins:wght@400;500&display=swap");
 @font-face {
   font-family: "Mango Grotesque ExtLt";
-  src: url("/asset/font/Humane-ExtraLight.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight.woff") format("woff"), url("/asset/font/Humane-ExtraLight.ttf") format("truetype");
+  src: url("asset/font/Humane-ExtraLight.woff2") format("woff2"), url("asset/font/Humane-ExtraLight.woff") format("woff"), url("asset/font/Humane-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Bold.woff2") format("woff2"), url("/asset/font/Humane-Bold.woff") format("woff"), url("/asset/font/Humane-Bold.ttf") format("truetype");
+  src: url("asset/font/Humane-Bold.woff2") format("woff2"), url("asset/font/Humane-Bold.woff") format("woff"), url("asset/font/Humane-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Regular.woff2") format("woff2"), url("/asset/font/Humane-Regular.woff") format("woff"), url("/asset/font/Humane-Regular.ttf") format("truetype");
+  src: url("asset/font/Humane-Regular.woff2") format("woff2"), url("asset/font/Humane-Regular.woff") format("woff"), url("asset/font/Humane-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Regular_1.woff2") format("woff2"), url("/asset/font/Humane-Regular_1.woff") format("woff"), url("/asset/font/Humane-Regular_1.ttf") format("truetype");
+  src: url("asset/font/Humane-Regular_1.woff2") format("woff2"), url("asset/font/Humane-Regular_1.woff") format("woff"), url("asset/font/Humane-Regular_1.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque SemBd";
-  src: url("/asset/font/Humane-SemiBold.woff2") format("woff2"), url("/asset/font/Humane-SemiBold.woff") format("woff"), url("/asset/font/Humane-SemiBold.ttf") format("truetype");
+  src: url("asset/font/Humane-SemiBold.woff2") format("woff2"), url("asset/font/Humane-SemiBold.woff") format("woff"), url("asset/font/Humane-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque Med";
-  src: url("/asset/font/Humane-Medium.woff2") format("woff2"), url("/asset/font/Humane-Medium.woff") format("woff"), url("/asset/font/Humane-Medium.ttf") format("truetype");
+  src: url("asset/font/Humane-Medium.woff2") format("woff2"), url("asset/font/Humane-Medium.woff") format("woff"), url("asset/font/Humane-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque ExtLt";
-  src: url("/asset/font/Humane-ExtraLight_1.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight_1.woff") format("woff"), url("/asset/font/Humane-ExtraLight_1.ttf") format("truetype");
+  src: url("asset/font/Humane-ExtraLight_1.woff2") format("woff2"), url("asset/font/Humane-ExtraLight_1.woff") format("woff"), url("asset/font/Humane-ExtraLight_1.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Light.woff2") format("woff2"), url("/asset/font/Humane-Light.woff") format("woff"), url("/asset/font/Humane-Light.ttf") format("truetype");
+  src: url("asset/font/Humane-Light.woff2") format("woff2"), url("asset/font/Humane-Light.woff") format("woff"), url("asset/font/Humane-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Thin.woff2") format("woff2"), url("/asset/font/Humane-Thin.woff") format("woff"), url("/asset/font/Humane-Thin.ttf") format("truetype");
+  src: url("asset/font/Humane-Thin.woff2") format("woff2"), url("asset/font/Humane-Thin.woff") format("woff"), url("asset/font/Humane-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Thin_1.woff2") format("woff2"), url("/asset/font/Humane-Thin_1.woff") format("woff"), url("/asset/font/Humane-Thin_1.ttf") format("truetype");
+  src: url("asset/font/Humane-Thin_1.woff2") format("woff2"), url("asset/font/Humane-Thin_1.woff") format("woff"), url("asset/font/Humane-Thin_1.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Bold_1.woff2") format("woff2"), url("/asset/font/Humane-Bold_1.woff") format("woff"), url("/asset/font/Humane-Bold_1.ttf") format("truetype");
+  src: url("asset/font/Humane-Bold_1.woff2") format("woff2"), url("asset/font/Humane-Bold_1.woff") format("woff"), url("asset/font/Humane-Bold_1.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque SemBd";
-  src: url("/asset/font/Humane-SemiBold_1.woff2") format("woff2"), url("/asset/font/Humane-SemiBold_1.woff") format("woff"), url("/asset/font/Humane-SemiBold_1.ttf") format("truetype");
+  src: url("asset/font/Humane-SemiBold_1.woff2") format("woff2"), url("asset/font/Humane-SemiBold_1.woff") format("woff"), url("asset/font/Humane-SemiBold_1.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Light_1.woff2") format("woff2"), url("/asset/font/Humane-Light_1.woff") format("woff"), url("/asset/font/Humane-Light_1.ttf") format("truetype");
+  src: url("asset/font/Humane-Light_1.woff2") format("woff2"), url("asset/font/Humane-Light_1.woff") format("woff"), url("asset/font/Humane-Light_1.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque Med";
-  src: url("/asset/font/Humane-Medium_1.woff2") format("woff2"), url("/asset/font/Humane-Medium_1.woff") format("woff"), url("/asset/font/Humane-Medium_1.ttf") format("truetype");
+  src: url("asset/font/Humane-Medium_1.woff2") format("woff2"), url("asset/font/Humane-Medium_1.woff") format("woff"), url("asset/font/Humane-Medium_1.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Light_2.woff2") format("woff2"), url("/asset/font/Humane-Light_2.woff") format("woff"), url("/asset/font/Humane-Light_2.ttf") format("truetype");
+  src: url("asset/font/Humane-Light_2.woff2") format("woff2"), url("asset/font/Humane-Light_2.woff") format("woff"), url("asset/font/Humane-Light_2.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Thin_2.woff2") format("woff2"), url("/asset/font/Humane-Thin_2.woff") format("woff"), url("/asset/font/Humane-Thin_2.ttf") format("truetype");
+  src: url("asset/font/Humane-Thin_2.woff2") format("woff2"), url("asset/font/Humane-Thin_2.woff") format("woff"), url("asset/font/Humane-Thin_2.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Bold_2.woff2") format("woff2"), url("/asset/font/Humane-Bold_2.woff") format("woff"), url("/asset/font/Humane-Bold_2.ttf") format("truetype");
+  src: url("asset/font/Humane-Bold_2.woff2") format("woff2"), url("asset/font/Humane-Bold_2.woff") format("woff"), url("asset/font/Humane-Bold_2.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque SemBd";
-  src: url("/asset/font/Humane-SemiBold_2.woff2") format("woff2"), url("/asset/font/Humane-SemiBold_2.woff") format("woff"), url("/asset/font/Humane-SemiBold_2.ttf") format("truetype");
+  src: url("asset/font/Humane-SemiBold_2.woff2") format("woff2"), url("asset/font/Humane-SemiBold_2.woff") format("woff"), url("asset/font/Humane-SemiBold_2.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque Med";
-  src: url("/asset/font/Humane-Medium_2.woff2") format("woff2"), url("/asset/font/Humane-Medium_2.woff") format("woff"), url("/asset/font/Humane-Medium_2.ttf") format("truetype");
+  src: url("asset/font/Humane-Medium_2.woff2") format("woff2"), url("asset/font/Humane-Medium_2.woff") format("woff"), url("asset/font/Humane-Medium_2.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque ExtLt";
-  src: url("/asset/font/Humane-ExtraLight_2.woff2") format("woff2"), url("/asset/font/Humane-ExtraLight_2.woff") format("woff"), url("/asset/font/Humane-ExtraLight_2.ttf") format("truetype");
+  src: url("asset/font/Humane-ExtraLight_2.woff2") format("woff2"), url("asset/font/Humane-ExtraLight_2.woff") format("woff"), url("asset/font/Humane-ExtraLight_2.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mango Grotesque";
-  src: url("/asset/font/Humane-Regular_2.woff2") format("woff2"), url("/asset/font/Humane-Regular_2.woff") format("woff"), url("/asset/font/Humane-Regular_2.ttf") format("truetype");
+  src: url("asset/font/Humane-Regular_2.woff2") format("woff2"), url("asset/font/Humane-Regular_2.woff") format("woff"), url("asset/font/Humane-Regular_2.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -527,7 +527,7 @@ h2 {
   padding-top: 90px;
 }
 .about .contenu-about .contact {
-  margin: 0px 200px 0px 0px;
+  margin-right: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -572,6 +572,7 @@ h2 {
 }
 .about .contenu-about .contact .contact-me .icones-contact a img {
   margin: 10px;
+  height: 30%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -746,6 +747,7 @@ h2 {
 }
 
 .menu {
+  position: fixed;
   overflow: hidden;
 }
 .menu input[name=menu-toggler] {
