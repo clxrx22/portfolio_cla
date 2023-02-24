@@ -322,6 +322,7 @@ h2 {
                 font-weight: 700;
                 line-height: 1.4;
                 font-size: 18px;
+                padding-top: 12px;
 
                 @media screen and (min-width: $bp-desk-small) {
                     font-size: 28px;
@@ -367,7 +368,7 @@ h2 {
                     &+div {
                         text-align: left;
                         margin-left: 40px;
-                        padding-top: 90px;
+                        // padding-top: 90px;
                     }
                 }
             }

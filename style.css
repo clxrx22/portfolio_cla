@@ -488,6 +488,7 @@ h2 {
   font-weight: 700;
   line-height: 1.4;
   font-size: 18px;
+  padding-top: 12px;
 }
 @media screen and (min-width: 1024px) {
   .about .contenu-about .texte p {
@@ -523,7 +524,6 @@ h2 {
 .about .contenu-about .texte.double div + div {
   text-align: left;
   margin-left: 40px;
-  padding-top: 90px;
 }
 .about .contenu-about .contact {
   margin-right: 200px;
