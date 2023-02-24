@@ -263,8 +263,7 @@ h2 {
                 animation: 2s scrollRight ease infinite alternate;
 
                 img {
-                    width: 150%;
-                    transform: rotate(90deg);
+                    width: 0%;
                 }
 
                 @keyframes scrollRight {
@@ -425,10 +424,11 @@ h2 {
                             @media screen and (min-width: $bp-mobile) {
                                 width: 30%;
                             }
+
                             @media screen and (min-width: $bp-tablet) {
                                 width: 20%;
                             }
-                            
+
                         }
                     }
 
@@ -516,14 +516,14 @@ h2 {
                                 }
                             }
                         }
-                    } 
+                    }
                 }
 
                 .icone-scroll-contact {
                     margin-top: 50px;
                     display: flex;
                     justify-content: flex-end;
-                    padding-bottom: 100px;    
+                    padding-bottom: 100px;
                 }
             }
         }
@@ -871,7 +871,7 @@ h2 {
             @media screen and (min-width: $bp-desk-small) {
                 width: 5%;
             }
-    
+
             @keyframes logo {
                 from {
                     -ms-transform: rotate(0deg);
@@ -880,7 +880,7 @@ h2 {
                     -o-transform: rotate(0deg);
                     transform: rotate(0deg);
                 }
-    
+
                 to {
                     -ms-transform: rotate(360deg);
                     -moz-transform: rotate(360deg);
@@ -898,24 +898,24 @@ h2 {
                 width: 35%;
                 margin-top: 100px;
                 // margin-bottom: 150px;
-    
+
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 z-index: 999;
-    
+
                 @media screen and (min-width: $bp-mobile) {
                     margin-top: 0;
                 }
             }
-    
+
             .influ {
                 width: 40%;
             }
-    
+
             .icon_scroll_hdp {
                 width: 40px;
-    
+
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -933,6 +933,28 @@ h2 {
     // background-image: url("images/oranges.jpg");
     margin-bottom: 80px;
 
+    .titre_section-fruity {
+        padding: 20px;
+        font-family: 'Mango Grotesque Med';
+        font-weight: light;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin: 10px;
+
+        @media screen and (min-width: $bp-mobile) {
+            font-size: 30px;
+        }
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            font-size: 70px;
+        }
+    }
+
     .maquette_fruity {
         display: flex;
         justify-content: center;
@@ -942,31 +964,8 @@ h2 {
         display: flex;
         flex-direction: column;
 
-        .titre_section-fruity {
-            padding: 20px;
-            font-family: 'Mango Grotesque Med';
-            font-weight: light;
-            text-align: center;
-            font-size: 20px;
-            letter-spacing: 7px;
-            margin: 10px;
-
-            @media screen and (min-width: $bp-mobile) {
-                font-size: 30px;
-                text-align: right;
-            }
-
-            @media screen and (min-width: $bp-tablet) {
-                font-size: 40px;
-            }
-
-            @media screen and (min-width: $bp-desk-small) {
-                font-size: 70px;
-            }
-        }
-
         .image_maquette_fruity {
-            width: 60%;
+            width: 90%;
         }
 
         @media screen and (min-width: $bp-mobile) {
@@ -990,12 +989,6 @@ h2 {
             overflow: hidden;
             position: relative;
             margin-bottom: 20px;
-
-            // &:hover {
-            //     .card__icon-container {
-            //         transform: translateY(calc(-66px - 50%));
-            //     }
-            // }
 
             &:hover {
                 .card__desc {
@@ -1079,80 +1072,58 @@ h2 {
             }
 
             @media screen and (min-width:576px) {
-                // gap: 10px;
                 width: calc(50% - 10px);
             }
 
             @media screen and (min-width:992px) {
-                // gap: calc(10px * 2);
                 width: calc((100% - (10px * 2)) / 3);
             }
         }
     }
 }
 
-.oeuvre_photoshop {
+.dalida {
+    margin-top: 50px;
+
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    transform: rotate(0deg);
-    margin: 30px;
-    height: 30vh;
-
-
-    @media screen and (min-width: $bp-mobile) {
-        // transform: rotate(-5deg);
-        height: 60vh;
-    }
-
-    @media screen and (min-width: $bp-tablet) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: $bp-desk-small) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: 1440px) {
-        height: 95vh;
-    }
-
-    .image-photoshop {
+    .groupe_dalida {
         display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-        .carres2-haut {
-            width: 20%;
-            margin-right: 3px;
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
 
-            .survol {
-                transition: transform .1s;
+        .dalida1 {
+            margin: 5px;
+            width: 45%;
 
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                }
+            @media screen and (min-width: $bp-mobile) {
+                width: 25%;
             }
         }
 
-        .carres2-bas {
-            width: 20%;
-            margin-right: 3px;
+        .dalida2 {
+            margin: 5px;
+            width: 45%;
 
-            .survol {
-                transition: transform .1s;
+            @media screen and (min-width: $bp-mobile) {
+                width: 25%;
+            }
+        }
 
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                }
+        .dalida3 {
+            margin: 5px;
+            width: 45%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 25%;
             }
         }
     }
@@ -1163,6 +1134,152 @@ h2 {
         text-align: center;
         font-size: 20px;
         letter-spacing: 7px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $bp-mobile) {
+            font-size: 30px;
+        }
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            font-size: 70px;
+        }
+    }
+}
+
+.chaise {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .groupe_chaise {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .chaise_gauche1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 5px;
+            width: 50%;
+        }
+
+        .chaise_droite {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 62%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 30%;
+            }
+
+            .chaise_droite1 {
+                margin: 5px;
+                width: 81%;
+            }
+
+            .chaise_droite2 {
+                margin: 5px;
+                width: 81%;
+            }
+        }
+
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
+    }
+
+    h2 {
+        font-family: 'Mango Grotesque Med';
+        font-weight: light;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $bp-mobile) {
+            font-size: 30px;
+        }
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            font-size: 70px;
+        }
+    }
+}
+
+.carte {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .groupe_carte {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .carte_gauche {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 40%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 30%;
+            }
+
+            .carte_gauche1 {
+                margin: 5px;
+                width: 98%;
+            }
+
+            .carte_gauche2 {
+                margin: 5px;
+                width: 98%;
+            }
+        }
+
+        .carte_droite1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 5px;
+            width: 40.5%;
+        }
+
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
+    }
+
+    h2 {
+        font-family: 'Mango Grotesque Med';
+        font-weight: light;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 30px;
 
         @media screen and (min-width: $bp-mobile) {
             font-size: 30px;
@@ -1179,69 +1296,55 @@ h2 {
 }
 
 .logo {
+    margin-top: 50px;
+
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    transform: rotate(0deg);
-    margin: 30px;
-    height: 30vh;
-
-
-    @media screen and (min-width: $bp-mobile) {
-        // transform: rotate(5deg);
-        height: 60vh;
-    }
-
-    @media screen and (min-width: $bp-tablet) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: $bp-desk-small) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: 1440px) {
-        height: 95vh;
-    }
-
-
-    .image-logo {
+    .logo_haut1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
 
-        .carres3-haut {
-            width: 20%;
-            margin-right: 3px;
+        margin: 5px;
+        width: 40%;
 
-            .survol {
-                transition: transform .1s;
-
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                }
-            }
+        @media screen and (min-width: $bp-mobile) {
+            width: 52.5%;
         }
+    }
 
-        .carres3-bas {
-            width: 20%;
-            margin-right: 3px;
+    .groupe_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-            .survol {
-                transition: transform .1s;
+        .logo_bas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 40%;
 
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
+            @media screen and (min-width: $bp-mobile) {
+                flex-direction: row;
+            }
+
+            .logo_bas1 {
+                margin: 5px;
+                width: 100%;
+            }
+
+            .logo_bas2 {
+                margin: 5px;
+                width: 100%;
+
+                @media screen and (min-width: $bp-mobile) {
+                    flex-direction: row;
+                    width: 84%;
                 }
             }
         }
@@ -1253,6 +1356,7 @@ h2 {
         text-align: center;
         font-size: 20px;
         letter-spacing: 7px;
+        margin-bottom: 30px;
 
         @media screen and (min-width: $bp-mobile) {
             font-size: 30px;
@@ -1268,72 +1372,54 @@ h2 {
     }
 }
 
-.oeuvre_numerique {
+.vinyle {
+    margin-top: 50px;
+
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    transform: rotate(0deg);
-    margin: 30px;
-    height: 30vh;
-
-
-    @media screen and (min-width: $bp-mobile) {
-        // transform: rotate(-5deg);
-        height: 60vh;
-    }
-
-    @media screen and (min-width: $bp-tablet) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: $bp-desk-small) {
-        height: 70vh;
-    }
-
-    @media screen and (min-width: 1440px) {
-        height: 95vh;
-    }
-
-
-    .image-dessin-num {
+    .groupe_vinyle {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
 
-        .carres-haut {
-            width: 20%;
-            margin-right: 3px;
 
-            .survol {
-                transition: transform .1s;
+        .vinyle_gauche1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                }
+            margin: 5px;
+            width: 40%;
+        }
+
+        .vinyle_droite {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 40%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 30%;
+            }
+
+            .vinyle_droite1 {
+                margin: 5px;
+                width: 98%;
+            }
+
+            .vinyle_droite2 {
+                margin: 5px;
+                width: 98%;
             }
         }
 
-        .carres-bas {
-            width: 20%;
-            margin-right: 3px;
-
-            .survol {
-                transition: transform .1s;
-
-                &:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9 */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                }
-            }
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
         }
     }
 
@@ -1343,6 +1429,64 @@ h2 {
         text-align: center;
         font-size: 20px;
         letter-spacing: 7px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $bp-mobile) {
+            font-size: 30px;
+        }
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: $bp-desk-small) {
+            font-size: 70px;
+        }
+    }
+}
+
+.montre {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .groupe_montre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        @media screen and (min-width: $bp-mobile) {
+            flex-direction: row;
+        }
+
+        .montre_gauche1 {
+            margin: 5px;
+            width: 32%;
+
+            @media screen and (min-width: $bp-mobile) {
+                width: 30%;
+            }
+        }
+
+        .montre_gauche2 {
+            margin: 5px;
+            width: 32%;
+        }
+
+    }
+
+    h2 {
+        font-family: 'Mango Grotesque Med';
+        font-weight: light;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 30px;
 
         @media screen and (min-width: $bp-mobile) {
             font-size: 30px;
@@ -1558,6 +1702,7 @@ h2 {
 .dessins {
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 
     @media screen and (min-width: $bp-tablet) {
         margin-left: 150px;
