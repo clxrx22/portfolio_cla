@@ -433,7 +433,7 @@ h2 {
   animation: 2s scrollRight ease infinite alternate;
 }
 .about .contenu-about .photo-moi .icone-scroll-right img {
-  width: 0%;
+  width: 60%;
 }
 @keyframes scrollRight {
   0% {
