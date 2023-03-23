@@ -928,11 +928,89 @@ h2 {
   margin-bottom: 100px;
 }
 
-.lescards {
-  padding: 0 16px;
-  margin-bottom: 80px;
+.nav_digital {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.lescards .titre_section-fruity {
+.nav_digital ul {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav_digital ul li {
+  margin: 30px;
+}
+.nav_digital ul li a {
+  background-color: #E1B3D4;
+  border-radius: 35px;
+  padding: 5px 40px;
+  color: #F5F5F5;
+  text-decoration: none;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 700px;
+  font-size: 10px;
+  margin: 10px;
+}
+@media screen and (min-width: 426px) {
+  .nav_digital ul li a {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav_digital ul li a {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav_digital ul li a {
+    font-size: 40px;
+  }
+}
+
+.bouton_retour {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.bouton_retour a {
+  background-color: #E1B3D4;
+  padding: 10px 40px;
+  border-radius: 35px;
+  text-decoration: none;
+  color: #F5F5F5;
+  font-family: "Mango Grotesque Med";
+  font-weight: 700px;
+  font-size: 20px;
+  margin: 10px;
+  letter-spacing: 5px;
+}
+@media screen and (min-width: 426px) {
+  .bouton_retour a {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bouton_retour a {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bouton_retour a {
+    font-size: 50px;
+  }
+}
+
+.web .lescards {
+  padding: 0 16px;
+  margin-bottom: 60px;
+}
+.web .lescards .titre_section-fruity {
   padding: 20px;
   font-family: "Mango Grotesque Med";
   font-weight: light;
@@ -942,21 +1020,21 @@ h2 {
   margin: 10px;
 }
 @media screen and (min-width: 426px) {
-  .lescards .titre_section-fruity {
+  .web .lescards .titre_section-fruity {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 768px) {
-  .lescards .titre_section-fruity {
+  .web .lescards .titre_section-fruity {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .lescards .titre_section-fruity {
+  .web .lescards .titre_section-fruity {
     font-size: 70px;
   }
 }
-.lescards .maquette_fruity {
+.web .lescards .maquette_fruity a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -964,24 +1042,24 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-.lescards .maquette_fruity .image_maquette_fruity {
+.web .lescards .maquette_fruity a .image_maquette_fruity {
   width: 90%;
 }
 @media screen and (min-width: 426px) {
-  .lescards .maquette_fruity {
+  .web .lescards .maquette_fruity a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 }
-.lescards .cards {
+.web .lescards .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px;
 }
-.lescards .cards .card {
+.web .lescards .cards .card {
   width: 100%;
   height: 500px;
   border-radius: 10px;
@@ -989,29 +1067,29 @@ h2 {
   position: relative;
   margin-bottom: 20px;
 }
-.lescards .cards .card:hover .card__desc {
+.web .lescards .cards .card:hover .card__desc {
   transform: translateY(-40px);
 }
-.lescards .cards .card:hover .card__img {
+.web .lescards .cards .card:hover .card__img {
   transform: scale(120%) translateY(-50px);
 }
-.lescards .cards .card .card__img-container {
+.web .lescards .cards .card .card__img-container {
   height: 50%;
   background-color: #F5F5F5;
 }
-.lescards .cards .card .card__img-container .card__img {
+.web .lescards .cards .card .card__img-container .card__img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.25s;
 }
-.lescards .cards .card .card__texts {
+.web .lescards .cards .card .card__texts {
   height: 50%;
   background-color: #F5F5F5;
   position: relative;
 }
-.lescards .cards .card .card__texts .card__desc {
+.web .lescards .cards .card .card__texts .card__desc {
   background-color: #F5F5F5;
   position: absolute;
   bottom: 0;
@@ -1023,31 +1101,31 @@ h2 {
   box-sizing: border-box;
   transition: all 0.25s;
 }
-.lescards .cards .card .card__texts .card__desc .card__title {
+.web .lescards .cards .card .card__texts .card__desc .card__title {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: bold;
   line-height: 1.4;
   font-size: 20px;
   color: #0F0F0F;
 }
-.lescards .cards .card .card__texts .card__desc .card__sous-titre {
+.web .lescards .cards .card .card__texts .card__desc .card__sous-titre {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: 700;
   line-height: 1.4;
   font-size: 15px;
   color: #0F0F0F;
 }
-.lescards .cards .card .card__texts .card__desc .card__paragraphes {
+.web .lescards .cards .card .card__texts .card__desc .card__paragraphes {
   display: flex;
   gap: 5px;
 }
-.lescards .cards .card .card__texts .card__desc .card__paragraphes .card__paragraphe {
+.web .lescards .cards .card .card__texts .card__desc .card__paragraphes .card__paragraphe {
   border-radius: 10px;
   padding: 5px;
   height: 66px;
   box-sizing: border-box;
 }
-.lescards .cards .card .card__texts .card__desc .card__paragraphes .card__paragraphe .but {
+.web .lescards .cards .card .card__texts .card__desc .card__paragraphes .card__paragraphe .but {
   font-family: "IBM Plex Sans Thai", sans-serif;
   font-weight: 700;
   line-height: 1.4;
@@ -1056,168 +1134,53 @@ h2 {
   text-align: left;
 }
 @media screen and (min-width: 576px) {
-  .lescards .cards .card {
+  .web .lescards .cards .card {
     width: calc(50% - 10px);
   }
 }
 @media screen and (min-width: 992px) {
-  .lescards .cards .card {
+  .web .lescards .cards .card {
     width: calc((100% - 20px) / 3);
   }
 }
-
-.dalida {
-  margin-top: 50px;
+.web .en_cours {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.dalida .groupe_dalida {
+.web .en_cours .figma {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-@media screen and (min-width: 426px) {
-  .dalida .groupe_dalida {
-    flex-direction: row;
-  }
-}
-.dalida .groupe_dalida .dalida1 {
-  margin: 5px;
-  width: 45%;
-}
-@media screen and (min-width: 426px) {
-  .dalida .groupe_dalida .dalida1 {
-    width: 25%;
-  }
-}
-.dalida .groupe_dalida .dalida2 {
-  margin: 5px;
-  width: 45%;
-}
-@media screen and (min-width: 426px) {
-  .dalida .groupe_dalida .dalida2 {
-    width: 25%;
-  }
-}
-.dalida .groupe_dalida .dalida3 {
-  margin: 5px;
-  width: 45%;
-}
-@media screen and (min-width: 426px) {
-  .dalida .groupe_dalida .dalida3 {
-    width: 25%;
-  }
-}
-.dalida h2 {
-  font-family: "Mango Grotesque Med";
-  font-weight: light;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 7px;
-  margin-bottom: 30px;
-}
-@media screen and (min-width: 426px) {
-  .dalida h2 {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .dalida h2 {
-    font-size: 40px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .dalida h2 {
-    font-size: 70px;
-  }
-}
-
-.chaise {
-  margin-top: 50px;
+.web .en_cours .figma a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 20px;
+  margin-top: 30px;
 }
-.chaise .groupe_chaise {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.chaise .groupe_chaise .chaise_gauche1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
+.web .en_cours .figma a img {
   width: 50%;
 }
-.chaise .groupe_chaise .chaise_droite {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 62%;
-}
-@media screen and (min-width: 426px) {
-  .chaise .groupe_chaise .chaise_droite {
-    width: 30%;
-  }
-}
-.chaise .groupe_chaise .chaise_droite .chaise_droite1 {
-  margin: 5px;
-  width: 81%;
-}
-.chaise .groupe_chaise .chaise_droite .chaise_droite2 {
-  margin: 5px;
-  width: 81%;
-}
-@media screen and (min-width: 426px) {
-  .chaise .groupe_chaise {
-    flex-direction: row;
-  }
-}
-.chaise h2 {
-  font-family: "Mango Grotesque Med";
-  font-weight: light;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 7px;
-  margin-bottom: 30px;
-}
-@media screen and (min-width: 426px) {
-  .chaise h2 {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .chaise h2 {
-    font-size: 40px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chaise h2 {
-    font-size: 70px;
-  }
-}
 
-.carte {
+.illustrator .carte {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.carte .groupe_carte {
+.illustrator .carte .groupe_carte {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.carte .groupe_carte .carte_gauche {
+.illustrator .carte .groupe_carte .carte_gauche {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1225,19 +1188,19 @@ h2 {
   width: 40%;
 }
 @media screen and (min-width: 426px) {
-  .carte .groupe_carte .carte_gauche {
+  .illustrator .carte .groupe_carte .carte_gauche {
     width: 30%;
   }
 }
-.carte .groupe_carte .carte_gauche .carte_gauche1 {
+.illustrator .carte .groupe_carte .carte_gauche .carte_gauche1 {
   margin: 5px;
   width: 98%;
 }
-.carte .groupe_carte .carte_gauche .carte_gauche2 {
+.illustrator .carte .groupe_carte .carte_gauche .carte_gauche2 {
   margin: 5px;
   width: 98%;
 }
-.carte .groupe_carte .carte_droite1 {
+.illustrator .carte .groupe_carte .carte_droite1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1245,11 +1208,11 @@ h2 {
   width: 40.5%;
 }
 @media screen and (min-width: 426px) {
-  .carte .groupe_carte {
+  .illustrator .carte .groupe_carte {
     flex-direction: row;
   }
 }
-.carte h2 {
+.illustrator .carte h2 {
   font-family: "Mango Grotesque Med";
   font-weight: light;
   text-align: center;
@@ -1258,29 +1221,28 @@ h2 {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 426px) {
-  .carte h2 {
+  .illustrator .carte h2 {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 768px) {
-  .carte h2 {
+  .illustrator .carte h2 {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .carte h2 {
+  .illustrator .carte h2 {
     font-size: 70px;
   }
 }
-
-.logo {
+.illustrator .logo {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.logo .logo_haut1 {
+.illustrator .logo .logo_haut1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1288,17 +1250,17 @@ h2 {
   width: 40%;
 }
 @media screen and (min-width: 426px) {
-  .logo .logo_haut1 {
+  .illustrator .logo .logo_haut1 {
     width: 52.5%;
   }
 }
-.logo .groupe_logo {
+.illustrator .logo .groupe_logo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.logo .groupe_logo .logo_bas {
+.illustrator .logo .groupe_logo .logo_bas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1306,25 +1268,25 @@ h2 {
   width: 40%;
 }
 @media screen and (min-width: 426px) {
-  .logo .groupe_logo .logo_bas {
+  .illustrator .logo .groupe_logo .logo_bas {
     flex-direction: row;
   }
 }
-.logo .groupe_logo .logo_bas .logo_bas1 {
+.illustrator .logo .groupe_logo .logo_bas .logo_bas1 {
   margin: 5px;
   width: 100%;
 }
-.logo .groupe_logo .logo_bas .logo_bas2 {
+.illustrator .logo .groupe_logo .logo_bas .logo_bas2 {
   margin: 5px;
   width: 100%;
 }
 @media screen and (min-width: 426px) {
-  .logo .groupe_logo .logo_bas .logo_bas2 {
+  .illustrator .logo .groupe_logo .logo_bas .logo_bas2 {
     flex-direction: row;
     width: 84%;
   }
 }
-.logo h2 {
+.illustrator .logo h2 {
   font-family: "Mango Grotesque Med";
   font-weight: light;
   text-align: center;
@@ -1333,91 +1295,21 @@ h2 {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 426px) {
-  .logo h2 {
+  .illustrator .logo h2 {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 768px) {
-  .logo h2 {
+  .illustrator .logo h2 {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .logo h2 {
+  .illustrator .logo h2 {
     font-size: 70px;
   }
 }
-
-.vinyle {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.vinyle .groupe_vinyle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.vinyle .groupe_vinyle .vinyle_gauche1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-  width: 40%;
-}
-.vinyle .groupe_vinyle .vinyle_droite {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 40%;
-}
-@media screen and (min-width: 426px) {
-  .vinyle .groupe_vinyle .vinyle_droite {
-    width: 30%;
-  }
-}
-.vinyle .groupe_vinyle .vinyle_droite .vinyle_droite1 {
-  margin: 5px;
-  width: 98%;
-}
-.vinyle .groupe_vinyle .vinyle_droite .vinyle_droite2 {
-  margin: 5px;
-  width: 98%;
-}
-@media screen and (min-width: 426px) {
-  .vinyle .groupe_vinyle {
-    flex-direction: row;
-  }
-}
-.vinyle h2 {
-  font-family: "Mango Grotesque Med";
-  font-weight: light;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 7px;
-  margin-bottom: 30px;
-}
-@media screen and (min-width: 426px) {
-  .vinyle h2 {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .vinyle h2 {
-    font-size: 40px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .vinyle h2 {
-    font-size: 70px;
-  }
-}
-
-.montre {
+.illustrator .montre {
   margin-top: 50px;
   margin-bottom: 100px;
   display: flex;
@@ -1425,31 +1317,31 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
-.montre .groupe_montre {
+.illustrator .montre .groupe_montre {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 @media screen and (min-width: 426px) {
-  .montre .groupe_montre {
+  .illustrator .montre .groupe_montre {
     flex-direction: row;
   }
 }
-.montre .groupe_montre .montre_gauche1 {
+.illustrator .montre .groupe_montre .montre_gauche1 {
   margin: 5px;
   width: 32%;
 }
 @media screen and (min-width: 426px) {
-  .montre .groupe_montre .montre_gauche1 {
+  .illustrator .montre .groupe_montre .montre_gauche1 {
     width: 30%;
   }
 }
-.montre .groupe_montre .montre_gauche2 {
+.illustrator .montre .groupe_montre .montre_gauche2 {
   margin: 5px;
   width: 32%;
 }
-.montre h2 {
+.illustrator .montre h2 {
   font-family: "Mango Grotesque Med";
   font-weight: light;
   text-align: center;
@@ -1458,19 +1350,319 @@ h2 {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 426px) {
-  .montre h2 {
+  .illustrator .montre h2 {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 768px) {
-  .montre h2 {
+  .illustrator .montre h2 {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .montre h2 {
+  .illustrator .montre h2 {
     font-size: 70px;
   }
+}
+
+.photoshop .dalida {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photoshop .dalida .groupe_dalida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .dalida .groupe_dalida {
+    flex-direction: row;
+  }
+}
+.photoshop .dalida .groupe_dalida .dalida1 {
+  margin: 5px;
+  width: 45%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .dalida .groupe_dalida .dalida1 {
+    width: 25%;
+  }
+}
+.photoshop .dalida .groupe_dalida .dalida2 {
+  margin: 5px;
+  width: 45%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .dalida .groupe_dalida .dalida2 {
+    width: 25%;
+  }
+}
+.photoshop .dalida .groupe_dalida .dalida3 {
+  margin: 5px;
+  width: 45%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .dalida .groupe_dalida .dalida3 {
+    width: 25%;
+  }
+}
+.photoshop .dalida h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .dalida h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .photoshop .dalida h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .photoshop .dalida h2 {
+    font-size: 70px;
+  }
+}
+.photoshop .chaise {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photoshop .chaise .groupe_chaise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photoshop .chaise .groupe_chaise .chaise_gauche1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 50%;
+}
+.photoshop .chaise .groupe_chaise .chaise_droite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 62%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .chaise .groupe_chaise .chaise_droite {
+    width: 30%;
+  }
+}
+.photoshop .chaise .groupe_chaise .chaise_droite .chaise_droite1 {
+  margin: 5px;
+  width: 81%;
+}
+.photoshop .chaise .groupe_chaise .chaise_droite .chaise_droite2 {
+  margin: 5px;
+  width: 81%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .chaise .groupe_chaise {
+    flex-direction: row;
+  }
+}
+.photoshop .chaise h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .chaise h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .photoshop .chaise h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .photoshop .chaise h2 {
+    font-size: 70px;
+  }
+}
+.photoshop .vinyle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photoshop .vinyle .groupe_vinyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photoshop .vinyle .groupe_vinyle .vinyle_gauche1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 40%;
+}
+.photoshop .vinyle .groupe_vinyle .vinyle_droite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .vinyle .groupe_vinyle .vinyle_droite {
+    width: 30%;
+  }
+}
+.photoshop .vinyle .groupe_vinyle .vinyle_droite .vinyle_droite1 {
+  margin: 5px;
+  width: 98%;
+}
+.photoshop .vinyle .groupe_vinyle .vinyle_droite .vinyle_droite2 {
+  margin: 5px;
+  width: 98%;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .vinyle .groupe_vinyle {
+    flex-direction: row;
+  }
+}
+.photoshop .vinyle h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 426px) {
+  .photoshop .vinyle h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .photoshop .vinyle h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .photoshop .vinyle h2 {
+    font-size: 70px;
+  }
+}
+
+.dessin-num {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessin-num .dessin_haut1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 40%;
+}
+@media screen and (min-width: 426px) {
+  .dessin-num .dessin_haut1 {
+    width: 52.5%;
+  }
+}
+.dessin-num .groupe_dessin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dessin-num .groupe_dessin .dessin_bas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+@media screen and (min-width: 426px) {
+  .dessin-num .groupe_dessin .dessin_bas {
+    flex-direction: row;
+  }
+}
+.dessin-num .groupe_dessin .dessin_bas .dessin_bas1 {
+  margin: 5px;
+  width: 100%;
+}
+@media screen and (min-width: 426px) {
+  .dessin-num .groupe_dessin .dessin_bas .dessin_bas1 {
+    flex-direction: row;
+    width: 47%;
+  }
+}
+.dessin-num .groupe_dessin .dessin_bas .dessin_bas2 {
+  margin: 5px;
+  width: 100%;
+}
+@media screen and (min-width: 426px) {
+  .dessin-num .groupe_dessin .dessin_bas .dessin_bas2 {
+    flex-direction: row;
+    width: 84%;
+  }
+}
+.dessin-num h2 {
+  font-family: "Mango Grotesque Med";
+  font-weight: light;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 426px) {
+  .dessin-num h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dessin-num h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dessin-num h2 {
+    font-size: 70px;
+  }
+}
+
+.animations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.animations img {
+  width: 50%;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .nom__artiste {
@@ -1700,6 +1892,12 @@ h2 {
   /* IE 9 */
   /* Safari 3-8 */
   transform: scale(1.1);
+}
+.dessins .dessins_gauche .fish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .dessins .dessins_gauche .lapin {
   display: flex;
