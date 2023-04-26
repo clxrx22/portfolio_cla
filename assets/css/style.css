@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
-@import "assets/font";
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600;700&family=Poppins:wght@400;500&display=swap');
 
 /* Breakpoints : 375, 768, 1024, 1440 */
@@ -17,6 +17,30 @@ $bp-desk-small: 1024px; */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("../font/Humane-Medium.woff2") format("woff2"), url("../font/Humane-Medium.woff") format("woff"), url("../font/Humane-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("../font/Humane-Medium_1.woff2") format("woff2"), url("../font/Humane-Medium_1.woff") format("woff"), url("../font/Humane-Medium_1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mango Grotesque Med";
+  src: url("../font/Humane-Medium_2.woff2") format("woff2"), url("../font/Humane-Medium_2.woff") format("woff"), url("../font/Humane-Medium_2.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: 'IBM Plex Sans Thai', sans-serif;
   color: #f5f5f5;
