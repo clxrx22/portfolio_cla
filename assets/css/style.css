@@ -455,6 +455,15 @@ h6,
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+/* .navbar{
+  position: fixed;
+  z-index: 999;
+}
+.fixer{
+  position: fixed;
+  z-index: 999;
+} */
+
 /* Custom Navmenu */
 .custom-navmenu {
   background: #E1B3D4;
