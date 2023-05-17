@@ -75,7 +75,35 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 10rem 0;
+}
+
+/* .parallax{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.parallax_perso img {
+  position: absolute;
+  right: 0;
+  height: 70%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.parallax_texte {
+  margin-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.vsg {
+  stroke: #0f0f0f;
 }
 
 .logo {
@@ -418,37 +446,56 @@ h6,
   }
 }
 
+.textes-about {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+  .textes-about {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .textes-about {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 .moi-about .commitments {
   margin-top: 30px;
-  text-align: right;
+  text-align: left;
   margin: 30px;
 }
 
 .moi-about .commitmentsp {
   margin: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .moi-about .materialp {
   margin: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .moi-about .material {
   /* margin-top: 30px; */
   margin: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .moi-about ul {
   list-style: none;
   margin: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .moi-about .passions {
   margin: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -648,6 +695,3 @@ h6,
   background-color: #E1B3D4;
 
 }
-
-
-

@@ -5,7 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -45,7 +45,7 @@
    * burgerMenu
    */
   const burgerMenu = select('.burger')
-  on('click', '.burger', function(e) {
+  on('click', '.burger', function (e) {
     burgerMenu.classList.toggle('active');
   })
 
@@ -61,9 +61,9 @@
 
       let portfolioFilters = select('#filters a', true);
 
-      on('click', '#filters a', function(e) {
+      on('click', '#filters a', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('active');
         });
         this.classList.add('active');
@@ -71,7 +71,7 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        portfolioIsotope.on('arrangeComplete', function () {
           AOS.refresh()
         });
       }, true);
@@ -110,3 +110,21 @@
   });
 
 })()
+
+// const fond = document.querySelector('#bg');
+// const visage = document.querySelector('#vsg');
+// const lunettes = document.querySelector('#glass');
+// const cheveux = document.querySelector('#hair');
+// const texte = document.querySelector('#textepara');
+// const para = document.querySelector('#ppara');
+
+// window.addEventListener('scroll', () => {
+//   let value = scrollY;
+
+//   fond.style.transform = `translateX(${value * 5}px)`
+//   visage.style.transform = `translateX(-${value * 20}px)`
+//   lunettes.style.transform = `translateY(-${value / 2}px) rotate(-${value / 2}deg)`
+//   cheveux.style.transform = `translateX(${value * 5}px)`
+//   texte.style.transform = `translateX(-${value * 2}px)`
+//   para.style.transform = `translateX(-${value * 2}px)`
+// })
