@@ -255,8 +255,11 @@ h6,
   font-size: 28px;
 }
 
+.swiper-wrapper{
+  margin-bottom: 30px;
+}
+
 .testimonials-slider .swiper-pagination {
-  margin-top: -60px;
   position: relative;
 }
 
